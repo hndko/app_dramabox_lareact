@@ -57,22 +57,13 @@ export default function Player({
                             <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
                                 <div className="flex-1 space-y-2">
                                     <h1 className="text-2xl md:text-3xl font-bold font-display text-white">
-                                        {chapters?.bookName || "Drama Title"}
+                                        Episode {parseInt(currentEpisode)}
                                     </h1>
-                                    <div className="flex items-center gap-3">
-                                        <span className="text-lg text-primary font-semibold">
-                                            Episode {parseInt(currentEpisode)}
-                                        </span>
-                                        {chapters?.introduction && (
-                                            <span className="text-sm text-muted-foreground line-clamp-1">
-                                                {chapters.introduction}
-                                            </span>
-                                        )}
-                                    </div>
 
-                                    <p className="text-gray-400 text-sm leading-relaxed pt-2">
-                                        {chapters?.introduction ||
-                                            "No description available."}
+                                    <p className="text-gray-400">
+                                        {episodeList.length > 0
+                                            ? `${episodeList.length} Episodes Available`
+                                            : "Loading episodes..."}
                                     </p>
 
                                     <div className="flex flex-wrap gap-2 pt-2">
