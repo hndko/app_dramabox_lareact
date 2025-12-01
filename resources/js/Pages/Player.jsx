@@ -14,7 +14,7 @@ export default function Player({ dramaId, currentEpisode = 0, chapters, watchDat
 
     return (
         <AppLayout>
-            <Head title={`Episode ${parseInt(currentEpisode) + 1} - DramaBox`} />
+            <Head title={`Episode ${parseInt(currentEpisode)} - DramaBox`} />
 
             <div className="max-w-7xl mx-auto">
                 {/* 2-Column Layout: Video Player + Episode List */}
@@ -50,7 +50,7 @@ export default function Player({ dramaId, currentEpisode = 0, chapters, watchDat
                             <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
                                 <div className="flex-1 space-y-2">
                                     <h1 className="text-2xl md:text-3xl font-bold font-display text-white">
-                                        Episode {parseInt(currentEpisode) + 1}
+                                        Episode {parseInt(currentEpisode)}
                                     </h1>
 
                                     <p className="text-gray-400">
@@ -129,12 +129,12 @@ export default function Player({ dramaId, currentEpisode = 0, chapters, watchDat
                                                             <>
                                                                 <Lock className={`h-3 w-3 mb-0.5 ${isCurrent ? 'text-black' : 'text-gray-400'}`} />
                                                                 <span className={`text-[10px] font-semibold ${isCurrent ? 'text-black' : 'text-gray-400'}`}>
-                                                                    {episodeNumber + 1}
+                                                                    {episodeNumber}
                                                                 </span>
                                                             </>
                                                         ) : (
                                                             <span className={`text-base font-bold ${isCurrent ? 'text-black' : 'text-white'}`}>
-                                                                {episodeNumber + 1}
+                                                                {episodeNumber}
                                                             </span>
                                                         )}
                                                     </div>

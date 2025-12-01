@@ -18,7 +18,7 @@ class PlayerController extends Controller
      */
     public function show(Request $request, string $dramaId): Response
     {
-        $episode = $request->query('episode', 0);
+        $episode = (int) $request->query('episode', 0);
         $source = $request->query('source', 'web');
 
         // Get chapter list
