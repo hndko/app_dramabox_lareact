@@ -21,8 +21,8 @@ export default function VideoGrid({ dramas = [], loading = false }) {
         return (
             <div className="flex flex-col items-center justify-center py-20 text-center">
                 <div className="text-6xl mb-4">🎬</div>
-                <h3 className="text-xl font-semibold mb-2">No dramas found</h3>
-                <p className="text-muted-foreground">
+                <h3 className="text-xl font-semibold mb-2 text-white">No dramas found</h3>
+                <p className="text-gray-400">
                     Waiting for API data. Please provide API response examples to display content.
                 </p>
             </div>

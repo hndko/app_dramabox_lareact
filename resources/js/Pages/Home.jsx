@@ -16,10 +16,10 @@ export default function Home({ content, currentPage = 1 }) {
             {/* Hero Section */}
             <div className="relative mb-12 rounded-2xl overflow-hidden">
                 <div className="bg-gradient-primary p-8 md:p-16 text-center">
-                    <h1 className="text-4xl md:text-6xl font-bold font-display mb-4 animate-fadeIn">
+                    <h1 className="text-4xl md:text-6xl font-bold font-display mb-4 animate-fadeIn text-white">
                         Welcome to DramaBox
                     </h1>
-                    <p className="text-lg md:text-xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto animate-fadeIn">
+                    <p className="text-lg md:text-xl text-white/90 mb-8 max-w-2xl mx-auto animate-fadeIn">
                         Discover amazing dramas tailored just for you
                     </p>
                 </div>

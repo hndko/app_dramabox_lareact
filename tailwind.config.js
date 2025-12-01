@@ -14,8 +14,12 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                sans: ["Inter", "Poppins", ...defaultTheme.fontFamily.sans],
-                display: ["Poppins", ...defaultTheme.fontFamily.sans],
+                sans: ["Roboto", "Montserrat", ...defaultTheme.fontFamily.sans],
+                display: [
+                    "Montserrat",
+                    "Roboto",
+                    ...defaultTheme.fontFamily.sans,
+                ],
             },
             borderRadius: {
                 lg: "var(--radius)",
