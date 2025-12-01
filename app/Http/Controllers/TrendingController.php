@@ -18,7 +18,7 @@ class TrendingController extends Controller
      */
     public function index(Request $request): Response
     {
-        $page = $request->query('page', 1);
+        $page = (int) $request->query('page', 1);
         $data = $this->dramaBoxService->getTrending($page);
 
         return Inertia::render('Trending', [

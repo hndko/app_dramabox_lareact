@@ -20,7 +20,7 @@ class SearchController extends Controller
     public function index(Request $request): Response
     {
         $keyword = $request->query('q', '');
-        $page = $request->query('page', 1);
+        $page = (int) $request->query('page', 1);
 
         $data = null;
         if ($keyword) {

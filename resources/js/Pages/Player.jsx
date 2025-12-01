@@ -104,7 +104,7 @@ export default function Player({ dramaId, currentEpisode = 0, chapters, watchDat
                             </div>
                             <ScrollArea className="h-[calc(100vh-200px)]">
                                 <div className="p-3">
-                                    <div className="grid grid-cols-4 gap-2">
+                                    <div className="grid grid-cols-5 gap-2">
                                         {episodeList.map((chapter) => {
                                             const episodeNumber = chapter.chapterIndex;
                                             const isLocked = chapter.isCharge === 1 && chapter.isPay === 0;

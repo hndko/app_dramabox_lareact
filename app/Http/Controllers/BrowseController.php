@@ -18,7 +18,7 @@ class BrowseController extends Controller
      */
     public function index(Request $request): Response
     {
-        $pageNo = $request->query('page', 1);
+        $pageNo = (int) $request->query('page', 1);
         $genre = $request->query('genre');
         $sort = $request->query('sort');
         $lang = $request->query('lang');
