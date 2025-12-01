@@ -9,40 +9,53 @@ export default function Browse({ content, currentPage = 1, filters = {} }) {
     const dramas = Array.isArray(content?.data) ? content.data : [];
     const hasMore = content?.hasMore || false;
 
-    const [selectedGenre, setSelectedGenre] = useState(filters.genre || '');
+    const [selectedGenre, setSelectedGenre] = useState(filters.genre || 'all');
     const [selectedSort, setSelectedSort] = useState(filters.sort || '1');
-    const [selectedLang, setSelectedLang] = useState(filters.lang || '');
+    const [selectedLang, setSelectedLang] = useState(filters.lang || 'all');
 
     const applyFilters = () => {
         const params = { page: 1 };
-        if (selectedGenre) params.genre = selectedGenre;
+        if (selectedGenre && selectedGenre !== 'all') params.genre = selectedGenre;
         if (selectedSort) params.sort = selectedSort;
-        if (selectedLang) params.lang = selectedLang;
+        if (selectedLang && selectedLang !== 'all') params.lang = selectedLang;
 
         router.get('/browse', params);
     };
 
-    // Mock genre data - replace with actual data from API
+    // Real genre data from API
     const genres = [
-        { id: '', name: 'All Genres' },
-        { id: '1', name: 'Romance' },
-        { id: '2', name: 'Drama' },
-        { id: '3', name: 'Action' },
-        { id: '4', name: 'Comedy' },
-        { id: '5', name: 'Thriller' },
+        { id: 'all', name: 'Semua Genre' },
+        { id: '1357', name: 'Romansa' },
+        { id: '1362', name: 'CEO' },
+        { id: '1394', name: 'Balas Dendam' },
+        { id: '1379', name: 'Cinta Terlarang' },
+        { id: '1352', name: 'Modern' },
+        { id: '1395', name: 'Pembalikan Identitas' },
+        { id: '1393', name: 'Cinta Setelah Menikah' },
+        { id: '1378', name: 'Cinta Paksaan' },
+        { id: '1397', name: 'Kabur Saat Hamil' },
+        { id: '1411', name: 'Intrik Keluarga' },
+        { id: '1374', name: 'Gadis Naif' },
+        { id: '1390', name: 'Musuh Jadi Kekasih' },
+        { id: '1380', name: 'Cinta Segitiga' },
+        { id: '1396', name: 'Pengantin Kabur' },
+        { id: '1392', name: 'Kesempatan Kedua' },
+        { id: '1452', name: 'Wanita Mandiri' },
+        { id: '1654', name: 'Penyesalan' },
+        { id: '1459', name: 'Penebusan' },
+        { id: '1371', name: 'Kekuatan Khusus' },
+        { id: '1388', name: 'Romansa Kantor' },
     ];
 
     const sortOptions = [
-        { id: '1', name: 'Latest' },
-        { id: '2', name: 'Popular' },
-        { id: '3', name: 'Top Rated' },
+        { id: '2', name: 'Terbaru' },
+        { id: '1', name: 'Terpopuler' },
     ];
 
     const languages = [
-        { id: '', name: 'All Languages' },
+        { id: 'all', name: 'Semua Bahasa' },
+        { id: 'in', name: 'Indonesia' },
         { id: 'en', name: 'English' },
-        { id: 'in', name: 'Indonesian' },
-        { id: 'ko', name: 'Korean' },
         { id: 'zh', name: 'Chinese' },
     ];
 
@@ -54,7 +67,7 @@ export default function Browse({ content, currentPage = 1, filters = {} }) {
             <div className="mb-8">
                 <div className="flex items-center space-x-3 mb-4">
                     <Filter className="h-8 w-8 text-accent" />
-                    <h1 className="text-3xl md:text-4xl font-bold font-display">
+                    <h1 className="text-3xl md:text-4xl font-bold font-display text-white">
                         Browse
                     </h1>
                 </div>
@@ -65,12 +78,12 @@ export default function Browse({ content, currentPage = 1, filters = {} }) {
 
             {/* Filters */}
             <div className="glass-card p-6 rounded-xl mb-8 space-y-4">
-                <h2 className="text-lg font-semibold mb-4">Filters</h2>
+                <h2 className="text-lg font-semibold mb-4 text-white">Filters</h2>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                     {/* Genre Filter */}
                     <div>
-                        <label className="block text-sm font-medium mb-2">Genre</label>
+                        <label className="block text-sm font-medium mb-2 text-gray-200">Genre</label>
                         <Select value={selectedGenre} onValueChange={setSelectedGenre}>
                             <SelectTrigger className="w-full">
                                 <SelectValue placeholder="Select genre" />
@@ -87,7 +100,7 @@ export default function Browse({ content, currentPage = 1, filters = {} }) {
 
                     {/* Sort Filter */}
                     <div>
-                        <label className="block text-sm font-medium mb-2">Sort By</label>
+                        <label className="block text-sm font-medium mb-2 text-gray-200">Sort By</label>
                         <Select value={selectedSort} onValueChange={setSelectedSort}>
                             <SelectTrigger className="w-full">
                                 <SelectValue placeholder="Select sort" />
@@ -104,7 +117,7 @@ export default function Browse({ content, currentPage = 1, filters = {} }) {
 
                     {/* Language Filter */}
                     <div>
-                        <label className="block text-sm font-medium mb-2">Language</label>
+                        <label className="block text-sm font-medium mb-2 text-gray-200">Language</label>
                         <Select value={selectedLang} onValueChange={setSelectedLang}>
                             <SelectTrigger className="w-full">
                                 <SelectValue placeholder="Select language" />

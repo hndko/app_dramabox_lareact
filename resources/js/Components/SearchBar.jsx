@@ -77,7 +77,7 @@ export default function SearchBar() {
 
             {/* Suggestions Dropdown */}
             {showSuggestions && suggestions.length > 0 && (
-                <div className="absolute top-full mt-2 w-full glass-card border border-white/10 rounded-lg overflow-hidden animate-scaleIn shadow-xl z-50 bg-black/90">
+                <div className="absolute top-full mt-2 w-full bg-neutral-900 border border-white/10 rounded-lg overflow-hidden animate-scaleIn shadow-xl z-50">
                     <div className="max-h-80 overflow-y-auto custom-scrollbar">
                         {suggestions.map((suggestion, index) => (
                             <button
@@ -95,7 +95,7 @@ export default function SearchBar() {
 
             {/* Loading State */}
             {loading && (
-                <div className="absolute top-full mt-2 w-full glass-card border border-white/10 rounded-lg p-4 text-center text-sm text-gray-400 bg-black/90">
+                <div className="absolute top-full mt-2 w-full bg-neutral-900 border border-white/10 rounded-lg p-4 text-center text-sm text-gray-400">
                     Loading...
                 </div>
             )}
