@@ -1,0 +1,371 @@
+cURL Example (GET):
+curl -X GET "https://sapi.dramabox.be/api/suggest/lov"
+
+response:
+{
+"success": true,
+"data": {
+"suggestList": [
+{
+"bookId": "41000122379",
+"bookName": "Love, not Lost to Memory",
+"introduction": "After giving birth to twins for the powerful Todd family, Vera Bell is drained of her blood in the delivery room to save their chosen heir, Finn Todd—leaving her lifeless, clutching a blood-stained lucky charm. Seven years later, mute and stripped of her memory, Vera survives by scavenging while raising her daughter, Grace Bell. ",
+"author": "",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000122379/41000122379.jpg?t=1760345999241&image_process=resize,h_300",
+"inLibraryCount": 0,
+"bookSource": {
+"sceneId": "ovs_vd_suggest_reco",
+"expId": "bigdata_rec",
+"strategyId": "gy7wbb4u",
+"strategyName": "",
+"log_id": "21e1748863cd58402c6a506618d04b93"
+},
+"sort": 0,
+"protagonist": "Vera Bell",
+"tagNames": [
+"Toxic Love",
+"Second Chance",
+"Family Bonds",
+"Amnesia",
+"Modern",
+"Romance"
+],
+"markNamesConnectKey": ", ",
+"algorithmRecomDot": "{\"log_id\":\"21e1748863cd58402c6a506618d04b93\",\"ret_time\":\"1764541648067\",\"scene_id\":\"ovs_vd_suggest_reco\",\"rec_id\":\"bigdata_rec\"}",
+"inLibrary": false
+},
+{
+"bookId": "41000122380",
+"bookName": "Love, not Lost to Memory (DUBBED)",
+"introduction": "After giving birth to twins for the powerful Todd family, Vera Bell is drained of her blood in the delivery room to save their chosen heir, Finn Todd—leaving her lifeless, clutching a blood-stained lucky charm. Seven years later, mute and stripped of her memory, Vera survives by scavenging while raising her daughter, Grace Bell. ",
+"author": "",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000122380/41000122380.jpg?t=1760346014310&image_process=resize,h_300",
+"inLibraryCount": 0,
+"bookSource": {
+"sceneId": "ovs_vd_suggest_reco",
+"expId": "bigdata_rec",
+"strategyId": "gy7wbb4u",
+"strategyName": "",
+"log_id": "21e1748863cd58402c6a506618d04b93"
+},
+"sort": 0,
+"protagonist": "Vera Bell",
+"tagNames": [
+"Toxic Love",
+"Second Chance",
+"Family Bonds",
+"Amnesia",
+"Modern",
+"Romance"
+],
+"markNamesConnectKey": ", ",
+"algorithmRecomDot": "{\"log_id\":\"21e1748863cd58402c6a506618d04b93\",\"ret_time\":\"1764541648067\",\"scene_id\":\"ovs_vd_suggest_reco\",\"rec_id\":\"bigdata_rec\"}",
+"inLibrary": false
+},
+{
+"bookId": "42000000472",
+"bookName": "Love Frequency at 30,000 Feet",
+"introduction": "Air traffic controller Grace has secretly loved elite pilot Liam for a decade, her admiration hidden behind the radar screens of the control tower. A fateful blind date unexpectedly reunites them, igniting an impulsive decision to marry. Their whirlwind union begins as a marriage of convenience but soon navigates turbulent skies.",
+"author": "",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000000472/42000000472.jpg?t=1763542801785&image_process=resize,h_300",
+"inLibraryCount": 0,
+"bookSource": {
+"sceneId": "ovs_vd_suggest_reco",
+"expId": "bigdata_rec",
+"strategyId": "gy7wbb4u",
+"strategyName": "",
+"log_id": "21e1748863cd58402c6a506618d04b93"
+},
+"sort": 0,
+"protagonist": "Liam,  Grace",
+"tagNames": [
+"Love After Marriage",
+"Pilot",
+"Secret Crush",
+"Modern",
+"Romance",
+"BG"
+],
+"markNamesConnectKey": ", ",
+"algorithmRecomDot": "{\"log_id\":\"21e1748863cd58402c6a506618d04b93\",\"ret_time\":\"1764541648067\",\"scene_id\":\"ovs_vd_suggest_reco\",\"rec_id\":\"bigdata_rec\"}",
+"inLibrary": false
+},
+{
+"bookId": "41000112267",
+"bookName": "Love at the End of Lies",
+"introduction": "On her engagement day, Ava discovers that her fiancé́ Dylan has secretly misused her savings. Instead of feeling guilty, Dylan and his mother insulted her, prompting her to call off the engagement in anger. In a desperate attempt to raise funds to save her grandmother's house, Ava agrees to marry Noah, the grandson of her elderly neighbor. Unknown to Ava, Noah is a billionaire who mistakenly believes Ava is a gold digger. ",
+"author": "",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000112267/41000112267.jpg?t=1739760316609&image_process=resize,h_300",
+"inLibraryCount": 0,
+"bookSource": {
+"sceneId": "ovs_vd_suggest_reco",
+"expId": "bigdata_rec",
+"strategyId": "gy7wbb4u",
+"strategyName": "",
+"log_id": "21e1748863cd58402c6a506618d04b93"
+},
+"sort": 0,
+"protagonist": "Ava,  Noah",
+"tagNames": [
+"Love After Marriage",
+"Hidden Identity",
+"Mistaken Identity",
+"Career Woman",
+"Modern",
+"Romance"
+],
+"corner": {
+"cornerType": 4,
+"name": "Anggota Saja",
+"color": ""
+},
+"markNamesConnectKey": ", ",
+"algorithmRecomDot": "{\"log_id\":\"21e1748863cd58402c6a506618d04b93\",\"ret_time\":\"1764541648067\",\"scene_id\":\"ovs_vd_suggest_reco\",\"rec_id\":\"bigdata_rec\"}",
+"inLibrary": false
+},
+{
+"bookId": "41000120987",
+"bookName": "Love Is a Game, I Play for Power (DUBBED)",
+"introduction": "Switched at birth, Ruby Wright endures twenty years of hardship in the countryside before being returned to the wealthy Wright family—only to be warned not to outshine their beloved adopted daughter. But Ruby is no fool. Beneath her meek facade, she stirs her father's guilt, turning pity into power. While others scheme, she quietly amasses wealth and shares—until the so-called country girl claims her place as the true heiress.",
+"author": "",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000120987/41000120987.jpg?t=1757051545482&image_process=resize,h_300",
+"inLibraryCount": 0,
+"bookSource": {
+"sceneId": "ovs_vd_suggest_reco",
+"expId": "bigdata_rec",
+"strategyId": "gy7wbb4u",
+"strategyName": "",
+"log_id": "21e1748863cd58402c6a506618d04b93"
+},
+"sort": 0,
+"protagonist": "Ruby Wright,  Ian Wright ",
+"tagNames": [
+"Underdog Story",
+"Counterattack",
+"Family Bonds",
+"Revenge",
+"Heiress",
+"Independent Woman"
+],
+"markNamesConnectKey": ", ",
+"algorithmRecomDot": "{\"log_id\":\"21e1748863cd58402c6a506618d04b93\",\"ret_time\":\"1764541648067\",\"scene_id\":\"ovs_vd_suggest_reco\",\"rec_id\":\"bigdata_rec\"}",
+"inLibrary": false
+},
+{
+"bookId": "41000119443",
+"bookName": "Love That Survives the Hurt(DUBBED) ",
+"introduction": "Seven years ago, Mable Graham donated a kidney to her boyfriend, then left him—afraid she'd become a burden. She raised their daughter, Cora Flint, alone, only to be branded a gold-digger by the man she once loved. Now, with Mable in a coma after a tragic accident, young Cora fights to raise money for her recovery—until Heidi Lane steps in to sabotage her efforts.",
+"author": "",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000119443/41000119443.jpg?t=1753954540330&image_process=resize,h_300",
+"inLibraryCount": 0,
+"bookSource": {
+"sceneId": "ovs_vd_suggest_reco",
+"expId": "bigdata_rec",
+"strategyId": "gy7wbb4u",
+"strategyName": "",
+"log_id": "21e1748863cd58402c6a506618d04b93"
+},
+"sort": 0,
+"protagonist": "Mable Graham,  Simon Flint",
+"tagNames": [
+"Forbidden Love",
+"Revenge",
+"Family Bonds",
+"Second Chance",
+"Modern",
+"Romance"
+],
+"markNamesConnectKey": ", ",
+"algorithmRecomDot": "{\"log_id\":\"21e1748863cd58402c6a506618d04b93\",\"ret_time\":\"1764541648067\",\"scene_id\":\"ovs_vd_suggest_reco\",\"rec_id\":\"bigdata_rec\"}",
+"inLibrary": false
+},
+{
+"bookId": "41000105764",
+"bookName": "Love The Way You Lie",
+"introduction": "Molly’s sister didn’t just swipe her boyfriend Connor—she also snatched her inheritance, leaving Molly high and dry. Fueled by alcohol and vengeance, Molly hatches a wild plan: seduce Connor’s attractive uncle, Adrian. Little does she know, her half-baked scheme works a little too well, because Adrian soon finds himself head over heels for Molly. ",
+"author": "",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000105764/41000105764.jpg?t=1725325915941&image_process=resize,h_300",
+"inLibraryCount": 0,
+"bookSource": {
+"sceneId": "ovs_vd_suggest_reco",
+"expId": "bigdata_rec",
+"strategyId": "gy7wbb4u",
+"strategyName": "",
+"log_id": "21e1748863cd58402c6a506618d04b93"
+},
+"sort": 0,
+"protagonist": "Adrian Mancini, Molly Johnson",
+"tagNames": [
+"Forbidden Love",
+"Love After Marriage",
+"Revenge",
+"Betrayal",
+"Modern",
+"Romance"
+],
+"corner": {
+"cornerType": 4,
+"name": "Anggota Saja",
+"color": ""
+},
+"markNamesConnectKey": ", ",
+"algorithmRecomDot": "{\"log_id\":\"21e1748863cd58402c6a506618d04b93\",\"ret_time\":\"1764541648067\",\"scene_id\":\"ovs_vd_suggest_reco\",\"rec_id\":\"bigdata_rec\"}",
+"inLibrary": false
+},
+{
+"bookId": "41000118337",
+"bookName": "Love at First Bite",
+"introduction": "Adopted by werewolf hunters, 18-year-old Staysha's mission to kill her first werewolf changes when she unknowingly spends a night with the charming Alpha King, igniting a forbidden romance.",
+"author": "",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000118337/41000118337.jpg?t=1762740343246&image_process=resize,h_300",
+"inLibraryCount": 0,
+"bookSource": {
+"sceneId": "ovs_vd_suggest_reco",
+"expId": "bigdata_rec",
+"strategyId": "gy7wbb4u",
+"strategyName": "",
+"log_id": "21e1748863cd58402c6a506618d04b93"
+},
+"sort": 0,
+"protagonist": "Kilian Stormheart,  Staysha Frost",
+"tagNames": [
+"Modern",
+"Romance",
+"BG"
+],
+"markNamesConnectKey": ", ",
+"algorithmRecomDot": "{\"log_id\":\"21e1748863cd58402c6a506618d04b93\",\"ret_time\":\"1764541648067\",\"scene_id\":\"ovs_vd_suggest_reco\",\"rec_id\":\"bigdata_rec\"}",
+"inLibrary": false
+},
+{
+"bookId": "41000106806",
+"bookName": "Love at Midnight",
+"introduction": "After signing the divorce agreement, Stella determined to break free from the past. However, she met Dereck at a bar, a handsome and mysterious man whose appearance injected new sparks into the story. Dereck timely helped Stella out of trouble, and the relationship between the two began to heat up.",
+"author": "",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000106806/41000106806.jpg?t=1729218253040&image_process=resize,h_300",
+"inLibraryCount": 0,
+"bookSource": {
+"sceneId": "ovs_vd_suggest_reco",
+"expId": "bigdata_rec",
+"strategyId": "gy7wbb4u",
+"strategyName": "",
+"log_id": "21e1748863cd58402c6a506618d04b93"
+},
+"sort": 0,
+"protagonist": "Stella Ortiz, Dereck Hughes ",
+"tagNames": [
+"Love at First Sight",
+"Love After Marriage",
+"Modern",
+"Romance",
+"BG"
+],
+"corner": {
+"cornerType": 4,
+"name": "Anggota Saja",
+"color": ""
+},
+"markNamesConnectKey": ", ",
+"algorithmRecomDot": "{\"log_id\":\"21e1748863cd58402c6a506618d04b93\",\"ret_time\":\"1764541648067\",\"scene_id\":\"ovs_vd_suggest_reco\",\"rec_id\":\"bigdata_rec\"}",
+"inLibrary": false
+},
+{
+"bookId": "41000107457",
+"bookName": "Love Me All You Like",
+"introduction": "When an impulsive one-night stand leads to an unexpected pregnancy, Sara finds herself pulled into Elliot’s world of luxury and privilege. As he repeatedly steps in to help her—saving her from an ex, offering her a place to stay, and supporting her during family conflicts—their connection deepens. Despite their differences, Sara and Elliot decide to marry, confronting the realities of their contrasting worlds and discovering love where they least expected it.",
+"author": "",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000107457/41000107457.jpg?t=1746521296242&image_process=resize,h_300",
+"inLibraryCount": 0,
+"bookSource": {
+"sceneId": "ovs_vd_suggest_reco",
+"expId": "bigdata_rec",
+"strategyId": "gy7wbb4u",
+"strategyName": "",
+"log_id": "21e1748863cd58402c6a506618d04b93"
+},
+"sort": 0,
+"protagonist": "Sara Meghan, Elliot Snyder",
+"tagNames": [
+"Destined Love",
+"Enemy to Lover",
+"Love After Marriage",
+"Secret Baby",
+"Winning Her Back",
+"Family Intrigue"
+],
+"corner": {
+"cornerType": 4,
+"name": "Anggota Saja",
+"color": ""
+},
+"markNamesConnectKey": ", ",
+"algorithmRecomDot": "{\"log_id\":\"21e1748863cd58402c6a506618d04b93\",\"ret_time\":\"1764541648067\",\"scene_id\":\"ovs_vd_suggest_reco\",\"rec_id\":\"bigdata_rec\"}",
+"inLibrary": false
+},
+{
+"bookId": "41000123241",
+"bookName": "Love Reckoning",
+"introduction": "She thought she married her savior—the man who gave her his kidney. But it was a lie. The true donor was the orphan her father raised, the loyal protector who loved her all along. Betrayed, nearly murdered by her scheming husband, she returns from the dead, burning for revenge. Love or vengeance—what will she choose?",
+"author": "",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000123241/41000123241.jpg?t=1761705638960&image_process=resize,h_300",
+"inLibraryCount": 0,
+"bookSource": {
+"sceneId": "ovs_vd_suggest_reco",
+"expId": "bigdata_rec",
+"strategyId": "gy7wbb4u",
+"strategyName": "",
+"log_id": "21e1748863cd58402c6a506618d04b93"
+},
+"sort": 0,
+"protagonist": "Anton,  Alice Ward",
+"tagNames": [
+"Mistaken Identity",
+"Revenge",
+"Rebirth",
+"Modern",
+"Strong Heroine",
+"BG"
+],
+"markNamesConnectKey": ", ",
+"algorithmRecomDot": "{\"log_id\":\"21e1748863cd58402c6a506618d04b93\",\"ret_time\":\"1764541648067\",\"scene_id\":\"ovs_vd_suggest_reco\",\"rec_id\":\"bigdata_rec\"}",
+"inLibrary": false
+},
+{
+"bookId": "41000112758",
+"bookName": "Love in the Shadows",
+"introduction": "Sophie agrees to marry a stranger to save her family, believing he’s just a quiet, absent businessman. But her world is turned upside down when she discovers her husband is Robert Kensington, a powerful CEO with a dangerous reputation—and a family willing to betray him for control of his company. Pulled into explosive boardroom battles and shocking family secrets, Sophie finds herself in a world where love and survival are anything but guaranteed.",
+"author": "",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000112758/41000112758.jpg?t=1740971828521&image_process=resize,h_300",
+"inLibraryCount": 0,
+"bookSource": {
+"sceneId": "ovs_vd_suggest_reco",
+"expId": "bigdata_rec",
+"strategyId": "gy7wbb4u",
+"strategyName": "",
+"log_id": "21e1748863cd58402c6a506618d04b93"
+},
+"sort": 0,
+"protagonist": "Sophie, Robert Kensington",
+"tagNames": [
+"Forced Love",
+"Love After Marriage",
+"Revenge",
+"Winning Her Back",
+"Family Intrigue",
+"Billionaire"
+],
+"corner": {
+"cornerType": 4,
+"name": "Anggota Saja",
+"color": ""
+},
+"markNamesConnectKey": ", ",
+"algorithmRecomDot": "{\"log_id\":\"21e1748863cd58402c6a506618d04b93\",\"ret_time\":\"1764541648067\",\"scene_id\":\"ovs_vd_suggest_reco\",\"rec_id\":\"bigdata_rec\"}",
+"inLibrary": false
+}
+]
+},
+"meta": {
+"source": "1"
+}
+}

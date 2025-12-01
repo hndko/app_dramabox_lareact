@@ -28,14 +28,14 @@ export default function Home({ content, currentPage = 1 }) {
             {/* For You Section */}
             <section className="space-y-6">
                 <div className="flex items-center justify-between">
-                    <h2 className="text-2xl md:text-3xl font-bold font-display">
+                    <h2 className="text-2xl md:text-3xl font-bold font-display text-white">
                         For You
                     </h2>
 
                     {hasMore && (
                         <Link
                             href={`/?page=${currentPage + 1}`}
-                            className="flex items-center space-x-1 text-primary hover:text-accent transition-colors"
+                            className="flex items-center space-x-1 text-white hover:text-gray-300 transition-colors"
                         >
                             <span>See More</span>
                             <ChevronRight className="h-4 w-4" />
@@ -51,20 +51,20 @@ export default function Home({ content, currentPage = 1 }) {
                         {currentPage > 1 && (
                             <Link
                                 href={`/?page=${currentPage - 1}`}
-                                className="px-6 py-2 rounded-lg bg-secondary hover:bg-primary hover:text-primary-foreground transition-smooth"
+                                className="px-6 py-2 rounded-lg bg-white/10 text-white hover:bg-white hover:text-black transition-smooth"
                             >
                                 Previous
                             </Link>
                         )}
 
-                        <span className="text-muted-foreground">
+                        <span className="text-gray-400">
                             Page {currentPage}
                         </span>
 
                         {hasMore && (
                             <Link
                                 href={`/?page=${currentPage + 1}`}
-                                className="px-6 py-2 rounded-lg bg-secondary hover:bg-primary hover:text-primary-foreground transition-smooth"
+                                className="px-6 py-2 rounded-lg bg-white text-black hover:bg-gray-200 transition-smooth"
                             >
                                 Next
                             </Link>

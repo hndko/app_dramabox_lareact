@@ -1,0 +1,841 @@
+cURL Example (GET):
+curl -X GET "https://sapi.dramabox.be/api/new/1"
+
+Response :
+{
+"success": true,
+"data": {
+"list": [
+{
+"bookId": "42000000724",
+"bookName": "Kau Bukan Siapa-siapa Bagiku (Sulih Suara)  ",
+"introduction": " Sebastian, seorang CEO miliarder, mengajak Eleanor untuk menikah demi menghindari pernikahan paksa keluarganya. Walau awalnya menolak, Eleanor akhirnya setuju menikah dengan Sebastian setelah menolongnya saat Eleanor dicampakkan dan dihina tunangan yang sudah dibiayainya. Yang tidak diketahui Sebastian, Eleanor adalah seorang CEO miliarder rahasia yang lebih berpengaruh. Setelah rahasia terungkap, akankah cinta mereka bertahan?",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000000724/42000000724.jpg?t=1764148052979",
+"chapterCount": 64,
+"playCount": "74.2K",
+"corner": {
+"cornerType": 2,
+"name": "Terbaru",
+"color": "#4D65ED"
+}
+},
+{
+"bookId": "42000000722",
+"bookName": "Bunga Mekar dari Air Mata (Sulih Suara)",
+"introduction": "Tujuh tahun lalu, Elara melahirkan anak kembar untuk Keluarga Clarke, namun darahnya diambil untuk menyelamatkan Nathan, cucu tertua mereka. Suaminya, Adrian, hanya menemukan jenazah Elara. Kini, Elara yang kehilangan ingatan dan bisu, membesarkan putrinya, Gia, sebagai pemulung. Takdir mempertemukan Gia dengan Nathan. Sebuah karangan \"Ibuku\" memicu konflik, dan Gia memohon pada Adrian, \"Paman, selamatkan ibuku.\"",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000000722/42000000722.jpg?t=1764147368665",
+"chapterCount": 60,
+"playCount": "163K",
+"corner": {
+"cornerType": 2,
+"name": "Terbaru",
+"color": "#4D65ED"
+}
+},
+{
+"bookId": "42000000651",
+"bookName": "Suami untuk Tiga Tahun (Sulih Suara)",
+"introduction": "Ezra yang sudah hidup ribuan tahun menepati janji pada muridnya yang sekarat untuk menjaga keluarganya selama tiga tahun. Selama waktu itu, dia menikahi cucu sang murid, tapi malah diperlakukan dingin dan diremehkan. Meski sering disulitkan, Ezra tetap sabar. Begitu tiga tahun berlalu, dia pergi tanpa penyesalan.",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000000651/42000000651.jpg?t=1764042578579",
+"chapterCount": 65,
+"playCount": "592K",
+"corner": {
+"cornerType": 2,
+"name": "Terbaru",
+"color": "#4D65ED"
+}
+},
+{
+"bookId": "42000000646",
+"bookName": "Masihkah Ada Cinta di Hatimu?",
+"introduction": "Demi menolong tunangannya, Alex terluka. Beth yang berutang budi mendonorkan ginjal meski berisiko kanker darah. Saat berobat ke luar negeri, sekretaris Alex, Stella, berbohong bahwa Beth pergi demi pria lain dan dirinya yang menyumbang ginjal. Sekembalinya, Alex menikahi Beth untuk balas dendam. Saat tahu kebenaran, akankah Beth memaafkannya?",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000000646/42000000646.jpg?t=1764038074186",
+"chapterCount": 53,
+"playCount": "171K",
+"corner": {
+"cornerType": 2,
+"name": "Terbaru",
+"color": "#4D65ED"
+}
+},
+{
+"bookId": "42000000607",
+"bookName": "Menyembuhkan Istriku yang Bisu",
+"introduction": "Mahesa, dewa abadi yang terjerat utang batu roh, bereinkarnasi sebagai pecandu judi yang tewas dibunuh rentenir. Ia menemukan istri mendiang, wanita cantik dan berbudi luhur tapi bisu dan disiksa. Mahesa memutuskan menjalani hidup fana lewat pernikahan itu, bertekad mencari uang untuk memurnikan pil obat dan menyembuhkan istrinya.",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000000607/42000000607.jpg?t=1763720495415",
+"chapterCount": 58,
+"playCount": "1.7M",
+"corner": {
+"cornerType": 2,
+"name": "Terbaru",
+"color": "#4D65ED"
+}
+},
+{
+"bookId": "42000000430",
+"bookName": "Sang Pewaris Tersembunyi",
+"introduction": "Demi menepati janji kecil, Yanto Linaga bekerja enam bulan di Grup Senia, diam-diam membantu tunangannya, Wina, hingga makin berpengaruh. Namun Wina meremehkannya, membuat Yanto mundur dan memutuskan pertunangan. Setelah dia pergi, terungkap bahwa Yanto adalah pewaris tunggal Grup Linaga. Grup Senia goyah, Wina menyesal, tapi Yanto tak kembali.",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000000430/42000000430.jpg?t=1763348313212",
+"chapterCount": 40,
+"playCount": "1M",
+"corner": {
+"cornerType": 2,
+"name": "Terbaru",
+"color": "#4D65ED"
+}
+},
+{
+"bookId": "42000000428",
+"bookName": "Dewa Masak Cilik",
+"introduction": "Lahir dengan bakat kuliner tingkat dewa, Sandra, murid dari koki legendaris Paman Pei turun gunung untuk membuktikan dirinya. Dengan satu hidangan, ia mengguncang dunia kuliner dan menaklukkan semua juri! Si kecil ini bukan sekadar jenius. Dia adalah koki ajaib termuda di Himaya!",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000000428/42000000428.jpg?t=1763348158525",
+"chapterCount": 51,
+"playCount": "471K",
+"corner": {
+"cornerType": 2,
+"name": "Terbaru",
+"color": "#4D65ED"
+}
+},
+{
+"bookId": "42000000453",
+"bookName": "Putri Asli Membalas",
+"introduction": "Polwan Gita meninggal saat bertugas, lalu terbangun sebagai putri asli Keluarga Mido. Masa lalunya penuh derita. Disiksa ibu angkat, diintimidasi saudara tiri, dan dibenci orang tua sendiri, hingga mati tragis di tangan penculik.Kini, Gita menuntut keadilan sekaligus mengungkap misteri kematiannya. Namun, rahasia masa lalu dan cinta masa kecilnya, Dion, kembali menguji hatinya.",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000000453/42000000453.jpg?t=1763371164381",
+"chapterCount": 83,
+"playCount": "1M",
+"corner": {
+"cornerType": 2,
+"name": "Terbaru",
+"color": "#4D65ED"
+}
+},
+{
+"bookId": "42000000562",
+"bookName": "Pewaris Tanpa Memori",
+"introduction": "Demi biaya pengobatan ibunya, Greta meminta bantuan kakeknya, Denny Salim, yang bersedia membayar asalkan Rachel meninggalkannya. Pada ulang tahun sang ibu, Greta mengucap perpisahan di samping ranjang rumah sakit. Dua puluh tahun berlalu, Rachel kini menjadi Ketua Grup Tirta dan mencari putrinya yang hilang. Greta, yang amnesia usai kecelakaan, bekerja keras demi menikah dengan Jefri, namun di panggung lamaran… wanita yang dipilih Jefri bukan dirinya.",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000000562/42000000562.jpg?t=1763629613644",
+"chapterCount": 56,
+"playCount": "216K",
+"corner": {
+"cornerType": 2,
+"name": "Terbaru",
+"color": "#4D65ED"
+}
+},
+{
+"bookId": "42000000425",
+"bookName": "Bukan Pengganti",
+"introduction": "Kresna Raka menikahi Livia Sakira karena mirip cinta pertamanya, tapi menganggapnya pengganti. Saat Livia dipermalukan selingkuhannya, Kresna malah menjebloskannya ke penjara. Setelah taruhan selesai, Livia bercerai dan kembali ke keluarganya yang kaya. Baru kemudian Kresna sadar Livia adalah cinta pertamanya. Ia menyesal dan mencoba mengejar, tapi Livia takkan kembali.",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000000425/42000000425.jpg?t=1763347669703",
+"chapterCount": 72,
+"playCount": "469K",
+"corner": {
+"cornerType": 2,
+"name": "Terbaru",
+"color": "#4D65ED"
+}
+}
+],
+"isMore": true,
+"total": 10,
+"raw": {
+"data": {
+"classifyBookList": {
+"records": [
+{
+"bookId": "42000000724",
+"bookName": "Kau Bukan Siapa-siapa Bagiku (Sulih Suara)  ",
+"coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000000724/42000000724.jpg?t=1764148052979",
+"chapterCount": 64,
+"introduction": " Sebastian, seorang CEO miliarder, mengajak Eleanor untuk menikah demi menghindari pernikahan paksa keluarganya. Walau awalnya menolak, Eleanor akhirnya setuju menikah dengan Sebastian setelah menolongnya saat Eleanor dicampakkan dan dihina tunangan yang sudah dibiayainya. Yang tidak diketahui Sebastian, Eleanor adalah seorang CEO miliarder rahasia yang lebih berpengaruh. Setelah rahasia terungkap, akankah cinta mereka bertahan?",
+"tags": [
+"Balas Dendam",
+"Pembalikan Identitas",
+"Romansa",
+"Wanita Kuat",
+"Modern",
+"CEO"
+],
+"tagV3s": [
+{
+"tagId": 1394,
+"tagName": "Balas Dendam",
+"tagEnName": "Revenge"
+},
+{
+"tagId": 1395,
+"tagName": "Pembalikan Identitas",
+"tagEnName": "Hidden Identity"
+},
+{
+"tagId": 1357,
+"tagName": "Romansa",
+"tagEnName": "Romance"
+},
+{
+"tagId": 1361,
+"tagName": "Wanita Kuat",
+"tagEnName": "Strong Heroine"
+},
+{
+"tagId": 1352,
+"tagName": "Modern",
+"tagEnName": "Modern"
+},
+{
+"tagId": 1362,
+"tagName": "CEO",
+"tagEnName": "Billionaire"
+}
+],
+"bookSource": {
+"sceneId": "ovs_vd_cat_video_rec",
+"expId": "bigdata_rec",
+"strategyId": "ghygip88",
+"strategyName": "\"EXP_3\"",
+"log_id": "73ccb47b60500f0026d75139716b6280"
+},
+"isEntry": 0,
+"index": 0,
+"corner": {
+"cornerType": 2,
+"name": "Terbaru",
+"color": "#4D65ED"
+},
+"dataFrom": "算法_分类筛选",
+"cardType": 1,
+"markNamesConnectKey": ", ",
+"algorithmRecomDot": "{\"log_id\":\"73ccb47b60500f0026d75139716b6280\",\"ret_time\":\"1764493613480\",\"scene_id\":\"ovs_vd_cat_video_rec\",\"rec_id\":\"bigdata_rec\"}",
+"playCount": "74.2K",
+"bookShelfTime": 1764210279000,
+"shelfTime": "2025-11-27 10:24:39",
+"inLibrary": false
+},
+{
+"bookId": "42000000722",
+"bookName": "Bunga Mekar dari Air Mata (Sulih Suara)",
+"coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000000722/42000000722.jpg?t=1764147368665",
+"chapterCount": 60,
+"introduction": "Tujuh tahun lalu, Elara melahirkan anak kembar untuk Keluarga Clarke, namun darahnya diambil untuk menyelamatkan Nathan, cucu tertua mereka. Suaminya, Adrian, hanya menemukan jenazah Elara. Kini, Elara yang kehilangan ingatan dan bisu, membesarkan putrinya, Gia, sebagai pemulung. Takdir mempertemukan Gia dengan Nathan. Sebuah karangan \"Ibuku\" memicu konflik, dan Gia memohon pada Adrian, \"Paman, selamatkan ibuku.\"",
+"tags": [
+"Amnesia",
+"Keluarga",
+"Anak Hilang",
+"Modern",
+"Wanita Kuat",
+"Ibu Tunggal"
+],
+"tagV3s": [
+{
+"tagId": 1402,
+"tagName": "Amnesia",
+"tagEnName": "Amnesia"
+},
+{
+"tagId": 1408,
+"tagName": "Keluarga",
+"tagEnName": "Family Bonds"
+},
+{
+"tagId": 1457,
+"tagName": "Anak Hilang",
+"tagEnName": "Lost Child"
+},
+{
+"tagId": 1352,
+"tagName": "Modern",
+"tagEnName": "Modern"
+},
+{
+"tagId": 1361,
+"tagName": "Wanita Kuat",
+"tagEnName": "Strong Heroine"
+},
+{
+"tagId": 1377,
+"tagName": "Ibu Tunggal",
+"tagEnName": "Single Mom"
+}
+],
+"bookSource": {
+"sceneId": "ovs_vd_cat_video_rec",
+"expId": "bigdata_rec",
+"strategyId": "ghygip88",
+"strategyName": "\"EXP_3\"",
+"log_id": "73ccb47b60500f0026d75139716b6280"
+},
+"isEntry": 0,
+"index": 0,
+"corner": {
+"cornerType": 2,
+"name": "Terbaru",
+"color": "#4D65ED"
+},
+"dataFrom": "算法_分类筛选",
+"cardType": 1,
+"markNamesConnectKey": ", ",
+"algorithmRecomDot": "{\"log_id\":\"73ccb47b60500f0026d75139716b6280\",\"ret_time\":\"1764493613480\",\"scene_id\":\"ovs_vd_cat_video_rec\",\"rec_id\":\"bigdata_rec\"}",
+"playCount": "163K",
+"bookShelfTime": 1764212055000,
+"shelfTime": "2025-11-27 10:54:15",
+"inLibrary": false
+},
+{
+"bookId": "42000000651",
+"bookName": "Suami untuk Tiga Tahun (Sulih Suara)",
+"coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000000651/42000000651.jpg?t=1764042578579",
+"chapterCount": 65,
+"introduction": "Ezra yang sudah hidup ribuan tahun menepati janji pada muridnya yang sekarat untuk menjaga keluarganya selama tiga tahun. Selama waktu itu, dia menikahi cucu sang murid, tapi malah diperlakukan dingin dan diremehkan. Meski sering disulitkan, Ezra tetap sabar. Begitu tiga tahun berlalu, dia pergi tanpa penyesalan.",
+"tags": [
+"Penyesalan",
+"Pembalikan Identitas",
+"Penebusan",
+"Pemberontak",
+"Supranatural",
+"Pria Dominan"
+],
+"tagV3s": [
+{
+"tagId": 1658,
+"tagName": "Penyesalan",
+"tagEnName": "All-Too-Late"
+},
+{
+"tagId": 1338,
+"tagName": "Pembalikan Identitas",
+"tagEnName": "Hidden Identity"
+},
+{
+"tagId": 1478,
+"tagName": "Penebusan",
+"tagEnName": "Redemption"
+},
+{
+"tagId": 1335,
+"tagName": "Pemberontak",
+"tagEnName": "Rebellious"
+},
+{
+"tagId": 1322,
+"tagName": "Supranatural",
+"tagEnName": "Supernatural"
+},
+{
+"tagId": 1323,
+"tagName": "Pria Dominan",
+"tagEnName": "Powerful Male Lead"
+}
+],
+"bookSource": {
+"sceneId": "ovs_vd_cat_video_rec",
+"expId": "bigdata_rec",
+"strategyId": "ghygip88",
+"strategyName": "\"EXP_3\"",
+"log_id": "73ccb47b60500f0026d75139716b6280"
+},
+"isEntry": 0,
+"index": 0,
+"corner": {
+"cornerType": 2,
+"name": "Terbaru",
+"color": "#4D65ED"
+},
+"dataFrom": "算法_分类筛选",
+"cardType": 1,
+"markNamesConnectKey": ", ",
+"algorithmRecomDot": "{\"log_id\":\"73ccb47b60500f0026d75139716b6280\",\"ret_time\":\"1764493613480\",\"scene_id\":\"ovs_vd_cat_video_rec\",\"rec_id\":\"bigdata_rec\"}",
+"playCount": "592K",
+"bookShelfTime": 1764052944000,
+"shelfTime": "2025-11-25 14:42:24",
+"inLibrary": false
+},
+{
+"bookId": "42000000646",
+"bookName": "Masihkah Ada Cinta di Hatimu?",
+"coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000000646/42000000646.jpg?t=1764038074186",
+"chapterCount": 53,
+"introduction": "Demi menolong tunangannya, Alex terluka. Beth yang berutang budi mendonorkan ginjal meski berisiko kanker darah. Saat berobat ke luar negeri, sekretaris Alex, Stella, berbohong bahwa Beth pergi demi pria lain dan dirinya yang menyumbang ginjal. Sekembalinya, Alex menikahi Beth untuk balas dendam. Saat tahu kebenaran, akankah Beth memaafkannya?",
+"tags": [
+"Mengejar Suami",
+"Penyesalan",
+"Balas Dendam",
+"Modern",
+"Romansa",
+"BG"
+],
+"tagV3s": [
+{
+"tagId": 1682,
+"tagName": "Mengejar Suami",
+"tagEnName": "Winning Him Back"
+},
+{
+"tagId": 1654,
+"tagName": "Penyesalan",
+"tagEnName": "All-Too-Late"
+},
+{
+"tagId": 1394,
+"tagName": "Balas Dendam",
+"tagEnName": "Revenge"
+},
+{
+"tagId": 1352,
+"tagName": "Modern",
+"tagEnName": "Modern"
+},
+{
+"tagId": 1357,
+"tagName": "Romansa",
+"tagEnName": "Romance"
+},
+{
+"tagId": 1358,
+"tagName": "BG",
+"tagEnName": "BG"
+}
+],
+"bookSource": {
+"sceneId": "ovs_vd_cat_video_rec",
+"expId": "bigdata_rec",
+"strategyId": "ghygip88",
+"strategyName": "\"EXP_3\"",
+"log_id": "73ccb47b60500f0026d75139716b6280"
+},
+"isEntry": 0,
+"index": 0,
+"corner": {
+"cornerType": 2,
+"name": "Terbaru",
+"color": "#4D65ED"
+},
+"dataFrom": "算法_分类筛选",
+"cardType": 1,
+"markNamesConnectKey": ", ",
+"algorithmRecomDot": "{\"log_id\":\"73ccb47b60500f0026d75139716b6280\",\"ret_time\":\"1764493613480\",\"scene_id\":\"ovs_vd_cat_video_rec\",\"rec_id\":\"bigdata_rec\"}",
+"playCount": "171K",
+"bookShelfTime": 1764039660000,
+"shelfTime": "2025-11-25 11:01:00",
+"inLibrary": false
+},
+{
+"bookId": "42000000607",
+"bookName": "Menyembuhkan Istriku yang Bisu",
+"coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000000607/42000000607.jpg?t=1763720495415",
+"chapterCount": 58,
+"introduction": "Mahesa, dewa abadi yang terjerat utang batu roh, bereinkarnasi sebagai pecandu judi yang tewas dibunuh rentenir. Ia menemukan istri mendiang, wanita cantik dan berbudi luhur tapi bisu dan disiksa. Mahesa memutuskan menjalani hidup fana lewat pernikahan itu, bertekad mencari uang untuk memurnikan pil obat dan menyembuhkan istrinya.",
+"tags": [
+"Pembalikan Identitas",
+"Kultivasi",
+"Penebusan",
+"Modern",
+"Pria Dominan",
+"Cinta Setelah Menikah"
+],
+"tagV3s": [
+{
+"tagId": 1338,
+"tagName": "Pembalikan Identitas",
+"tagEnName": "Hidden Identity"
+},
+{
+"tagId": 1351,
+"tagName": "Kultivasi",
+"tagEnName": "Cultivation Fantasy"
+},
+{
+"tagId": 1478,
+"tagName": "Penebusan",
+"tagEnName": "Redemption"
+},
+{
+"tagId": 1318,
+"tagName": "Modern",
+"tagEnName": "Modern"
+},
+{
+"tagId": 1323,
+"tagName": "Pria Dominan",
+"tagEnName": "Powerful Male Lead"
+},
+{
+"tagId": 1423,
+"tagName": "Cinta Setelah Menikah",
+"tagEnName": "Love After Marriage"
+}
+],
+"bookSource": {
+"sceneId": "ovs_vd_cat_video_rec",
+"expId": "bigdata_rec",
+"strategyId": "ghygip88",
+"strategyName": "\"EXP_3\"",
+"log_id": "73ccb47b60500f0026d75139716b6280"
+},
+"isEntry": 0,
+"index": 0,
+"corner": {
+"cornerType": 2,
+"name": "Terbaru",
+"color": "#4D65ED"
+},
+"dataFrom": "算法_分类筛选",
+"cardType": 1,
+"markNamesConnectKey": ", ",
+"algorithmRecomDot": "{\"log_id\":\"73ccb47b60500f0026d75139716b6280\",\"ret_time\":\"1764493613480\",\"scene_id\":\"ovs_vd_cat_video_rec\",\"rec_id\":\"bigdata_rec\"}",
+"playCount": "1.7M",
+"bookShelfTime": 1763951512000,
+"shelfTime": "2025-11-24 10:31:52",
+"inLibrary": false
+},
+{
+"bookId": "42000000430",
+"bookName": "Sang Pewaris Tersembunyi",
+"coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000000430/42000000430.jpg?t=1763348313212",
+"chapterCount": 40,
+"introduction": "Demi menepati janji kecil, Yanto Linaga bekerja enam bulan di Grup Senia, diam-diam membantu tunangannya, Wina, hingga makin berpengaruh. Namun Wina meremehkannya, membuat Yanto mundur dan memutuskan pertunangan. Setelah dia pergi, terungkap bahwa Yanto adalah pewaris tunggal Grup Linaga. Grup Senia goyah, Wina menyesal, tapi Yanto tak kembali.",
+"tags": [
+"Pembalikan Identitas",
+"Bangkitnya Orang Biasa",
+"Mengejar Suami",
+"Balas Dendam",
+"Modern",
+"Pria Dominan"
+],
+"tagV3s": [
+{
+"tagId": 1338,
+"tagName": "Pembalikan Identitas",
+"tagEnName": "Hidden Identity"
+},
+{
+"tagId": 1339,
+"tagName": "Bangkitnya Orang Biasa",
+"tagEnName": "Underdog Story"
+},
+{
+"tagId": 1681,
+"tagName": "Mengejar Suami",
+"tagEnName": "Winning Him Back"
+},
+{
+"tagId": 1337,
+"tagName": "Balas Dendam",
+"tagEnName": "Revenge"
+},
+{
+"tagId": 1318,
+"tagName": "Modern",
+"tagEnName": "Modern"
+},
+{
+"tagId": 1323,
+"tagName": "Pria Dominan",
+"tagEnName": "Powerful Male Lead"
+}
+],
+"bookSource": {
+"sceneId": "ovs_vd_cat_video_rec",
+"expId": "bigdata_rec",
+"strategyId": "ghygip88",
+"strategyName": "\"EXP_3\"",
+"log_id": "73ccb47b60500f0026d75139716b6280"
+},
+"isEntry": 0,
+"index": 0,
+"corner": {
+"cornerType": 2,
+"name": "Terbaru",
+"color": "#4D65ED"
+},
+"dataFrom": "算法_分类筛选",
+"cardType": 1,
+"markNamesConnectKey": ", ",
+"algorithmRecomDot": "{\"log_id\":\"73ccb47b60500f0026d75139716b6280\",\"ret_time\":\"1764493613480\",\"scene_id\":\"ovs_vd_cat_video_rec\",\"rec_id\":\"bigdata_rec\"}",
+"playCount": "1M",
+"bookShelfTime": 1763974800000,
+"shelfTime": "2025-11-24 17:00:00",
+"inLibrary": false
+},
+{
+"bookId": "42000000428",
+"bookName": "Dewa Masak Cilik",
+"coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000000428/42000000428.jpg?t=1763348158525",
+"chapterCount": 51,
+"introduction": "Lahir dengan bakat kuliner tingkat dewa, Sandra, murid dari koki legendaris Paman Pei turun gunung untuk membuktikan dirinya. Dengan satu hidangan, ia mengguncang dunia kuliner dan menaklukkan semua juri! Si kecil ini bukan sekadar jenius. Dia adalah koki ajaib termuda di Himaya!",
+"tags": [
+"Bayi Lucu",
+"Pembalikan Identitas",
+"Modern",
+"Wanita Kuat"
+],
+"tagV3s": [
+{
+"tagId": 1460,
+"tagName": "Bayi Lucu",
+"tagEnName": "Genius Babies"
+},
+{
+"tagId": 1395,
+"tagName": "Pembalikan Identitas",
+"tagEnName": "Hidden Identity"
+},
+{
+"tagId": 1352,
+"tagName": "Modern",
+"tagEnName": "Modern"
+},
+{
+"tagId": 1361,
+"tagName": "Wanita Kuat",
+"tagEnName": "Strong Heroine"
+}
+],
+"bookSource": {
+"sceneId": "ovs_vd_cat_video_rec",
+"expId": "bigdata_rec",
+"strategyId": "ghygip88",
+"strategyName": "\"EXP_3\"",
+"log_id": "73ccb47b60500f0026d75139716b6280"
+},
+"isEntry": 0,
+"index": 0,
+"corner": {
+"cornerType": 2,
+"name": "Terbaru",
+"color": "#4D65ED"
+},
+"dataFrom": "算法_分类筛选",
+"cardType": 1,
+"markNamesConnectKey": ", ",
+"algorithmRecomDot": "{\"log_id\":\"73ccb47b60500f0026d75139716b6280\",\"ret_time\":\"1764493613480\",\"scene_id\":\"ovs_vd_cat_video_rec\",\"rec_id\":\"bigdata_rec\"}",
+"playCount": "471K",
+"bookShelfTime": 1763974800000,
+"shelfTime": "2025-11-24 17:00:00",
+"inLibrary": false
+},
+{
+"bookId": "42000000453",
+"bookName": "Putri Asli Membalas",
+"coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000000453/42000000453.jpg?t=1763371164381",
+"chapterCount": 83,
+"introduction": "Polwan Gita meninggal saat bertugas, lalu terbangun sebagai putri asli Keluarga Mido. Masa lalunya penuh derita. Disiksa ibu angkat, diintimidasi saudara tiri, dan dibenci orang tua sendiri, hingga mati tragis di tangan penculik.Kini, Gita menuntut keadilan sekaligus mengungkap misteri kematiannya. Namun, rahasia masa lalu dan cinta masa kecilnya, Dion, kembali menguji hatinya.",
+"tags": [
+"Balas Dendam",
+"Terlahir Kembali",
+"Pembalikan Identitas",
+"Pantang Menyerah",
+"Modern",
+"Wanita Kuat"
+],
+"tagV3s": [
+{
+"tagId": 1394,
+"tagName": "Balas Dendam",
+"tagEnName": "Revenge"
+},
+{
+"tagId": 1405,
+"tagName": "Terlahir Kembali",
+"tagEnName": "Rebirth"
+},
+{
+"tagId": 1395,
+"tagName": "Pembalikan Identitas",
+"tagEnName": "Hidden Identity"
+},
+{
+"tagId": 1453,
+"tagName": "Pantang Menyerah",
+"tagEnName": "Strong-Willed"
+},
+{
+"tagId": 1352,
+"tagName": "Modern",
+"tagEnName": "Modern"
+},
+{
+"tagId": 1361,
+"tagName": "Wanita Kuat",
+"tagEnName": "Strong Heroine"
+}
+],
+"bookSource": {
+"sceneId": "ovs_vd_cat_video_rec",
+"expId": "bigdata_rec",
+"strategyId": "ghygip88",
+"strategyName": "\"EXP_3\"",
+"log_id": "73ccb47b60500f0026d75139716b6280"
+},
+"isEntry": 0,
+"index": 0,
+"corner": {
+"cornerType": 2,
+"name": "Terbaru",
+"color": "#4D65ED"
+},
+"dataFrom": "算法_分类筛选",
+"cardType": 1,
+"markNamesConnectKey": ", ",
+"algorithmRecomDot": "{\"log_id\":\"73ccb47b60500f0026d75139716b6280\",\"ret_time\":\"1764493613480\",\"scene_id\":\"ovs_vd_cat_video_rec\",\"rec_id\":\"bigdata_rec\"}",
+"playCount": "1M",
+"bookShelfTime": 1763949600000,
+"shelfTime": "2025-11-24 10:00:00",
+"inLibrary": false
+},
+{
+"bookId": "42000000562",
+"bookName": "Pewaris Tanpa Memori",
+"coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000000562/42000000562.jpg?t=1763629613644",
+"chapterCount": 56,
+"introduction": "Demi biaya pengobatan ibunya, Greta meminta bantuan kakeknya, Denny Salim, yang bersedia membayar asalkan Rachel meninggalkannya. Pada ulang tahun sang ibu, Greta mengucap perpisahan di samping ranjang rumah sakit. Dua puluh tahun berlalu, Rachel kini menjadi Ketua Grup Tirta dan mencari putrinya yang hilang. Greta, yang amnesia usai kecelakaan, bekerja keras demi menikah dengan Jefri, namun di panggung lamaran… wanita yang dipilih Jefri bukan dirinya.",
+"tags": [
+"Anak Hilang",
+"Amnesia",
+"Wanita Karier",
+"Modern",
+"Wanita Kuat",
+"Perselingkuhan"
+],
+"tagV3s": [
+{
+"tagId": 1457,
+"tagName": "Anak Hilang",
+"tagEnName": "Lost Child"
+},
+{
+"tagId": 1402,
+"tagName": "Amnesia",
+"tagEnName": "Amnesia"
+},
+{
+"tagId": 1375,
+"tagName": "Wanita Karier",
+"tagEnName": "Career Woman"
+},
+{
+"tagId": 1352,
+"tagName": "Modern",
+"tagEnName": "Modern"
+},
+{
+"tagId": 1361,
+"tagName": "Wanita Kuat",
+"tagEnName": "Strong Heroine"
+},
+{
+"tagId": 1400,
+"tagName": "Perselingkuhan",
+"tagEnName": "Betrayal"
+}
+],
+"bookSource": {
+"sceneId": "ovs_vd_cat_video_rec",
+"expId": "bigdata_rec",
+"strategyId": "ghygip88",
+"strategyName": "\"EXP_3\"",
+"log_id": "73ccb47b60500f0026d75139716b6280"
+},
+"isEntry": 0,
+"index": 0,
+"corner": {
+"cornerType": 2,
+"name": "Terbaru",
+"color": "#4D65ED"
+},
+"dataFrom": "算法_分类筛选",
+"cardType": 1,
+"markNamesConnectKey": ", ",
+"algorithmRecomDot": "{\"log_id\":\"73ccb47b60500f0026d75139716b6280\",\"ret_time\":\"1764493613481\",\"scene_id\":\"ovs_vd_cat_video_rec\",\"rec_id\":\"bigdata_rec\"}",
+"playCount": "216K",
+"bookShelfTime": 1763949602000,
+"shelfTime": "2025-11-24 10:00:02",
+"inLibrary": false
+},
+{
+"bookId": "42000000425",
+"bookName": "Bukan Pengganti",
+"coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000000425/42000000425.jpg?t=1763347669703",
+"chapterCount": 72,
+"introduction": "Kresna Raka menikahi Livia Sakira karena mirip cinta pertamanya, tapi menganggapnya pengganti. Saat Livia dipermalukan selingkuhannya, Kresna malah menjebloskannya ke penjara. Setelah taruhan selesai, Livia bercerai dan kembali ke keluarganya yang kaya. Baru kemudian Kresna sadar Livia adalah cinta pertamanya. Ia menyesal dan mencoba mengejar, tapi Livia takkan kembali.",
+"tags": [
+"Penyesalan",
+"Mengejar Istri",
+"Salah Identitas",
+"Perselingkuhan",
+"CEO",
+"Wanita Mandiri"
+],
+"tagV3s": [
+{
+"tagId": 1654,
+"tagName": "Penyesalan",
+"tagEnName": "All-Too-Late"
+},
+{
+"tagId": 1401,
+"tagName": "Mengejar Istri",
+"tagEnName": "Winning Her Back"
+},
+{
+"tagId": 1403,
+"tagName": "Salah Identitas",
+"tagEnName": "Mistaken Identity"
+},
+{
+"tagId": 1400,
+"tagName": "Perselingkuhan",
+"tagEnName": "Betrayal"
+},
+{
+"tagId": 1362,
+"tagName": "CEO",
+"tagEnName": "Billionaire"
+},
+{
+"tagId": 1452,
+"tagName": "Wanita Mandiri",
+"tagEnName": "Independent Woman"
+}
+],
+"bookSource": {
+"sceneId": "ovs_vd_cat_video_rec",
+"expId": "bigdata_rec",
+"strategyId": "ghygip88",
+"strategyName": "\"EXP_3\"",
+"log_id": "73ccb47b60500f0026d75139716b6280"
+},
+"isEntry": 0,
+"index": 0,
+"corner": {
+"cornerType": 2,
+"name": "Terbaru",
+"color": "#4D65ED"
+},
+"dataFrom": "算法_分类筛选",
+"cardType": 1,
+"markNamesConnectKey": ", ",
+"algorithmRecomDot": "{\"log_id\":\"73ccb47b60500f0026d75139716b6280\",\"ret_time\":\"1764493613481\",\"scene_id\":\"ovs_vd_cat_video_rec\",\"rec_id\":\"bigdata_rec\"}",
+"playCount": "469K",
+"bookShelfTime": 1763974801000,
+"shelfTime": "2025-11-24 17:00:01",
+"inLibrary": false
+}
+],
+"isMore": 1
+},
+"cornerSwitch": true
+},
+"status": 0,
+"message": "success",
+"timestamp": 1764493613481,
+"ip": "2a06:98c0:3600::103",
+"region": "西班牙",
+"path": "/he001/classify",
+"success": true
+}
+},
+"meta": {
+"source": "1"
+}
+}

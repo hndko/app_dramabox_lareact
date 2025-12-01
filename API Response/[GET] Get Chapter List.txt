@@ -1,0 +1,1454 @@
+cURL Example (GET):
+curl -X GET "https://sapi.dramabox.be/api/chapters/41000121167"
+
+Response:
+{
+"success": true,
+"data": {
+"chapterList": [
+{
+"chapterId": "600291492",
+"chapterIndex": 0,
+"isCharge": 0,
+"isPay": 0,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 20508
+},
+{
+"quality": 540,
+"size": 15381
+},
+{
+"quality": 360,
+"size": 10254
+},
+{
+"quality": 144,
+"size": 4101
+}
+]
+},
+{
+"chapterId": "600291493",
+"chapterIndex": 1,
+"isCharge": 0,
+"isPay": 0,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 17306
+},
+{
+"quality": 540,
+"size": 12979
+},
+{
+"quality": 360,
+"size": 8653
+},
+{
+"quality": 144,
+"size": 3461
+}
+]
+},
+{
+"chapterId": "600291494",
+"chapterIndex": 2,
+"isCharge": 0,
+"isPay": 0,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 24588
+},
+{
+"quality": 540,
+"size": 18441
+},
+{
+"quality": 360,
+"size": 12294
+},
+{
+"quality": 144,
+"size": 4917
+}
+]
+},
+{
+"chapterId": "600291495",
+"chapterIndex": 3,
+"isCharge": 0,
+"isPay": 0,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 25961
+},
+{
+"quality": 540,
+"size": 19470
+},
+{
+"quality": 360,
+"size": 12980
+},
+{
+"quality": 144,
+"size": 5192
+}
+]
+},
+{
+"chapterId": "600291496",
+"chapterIndex": 4,
+"isCharge": 0,
+"isPay": 0,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 19049
+},
+{
+"quality": 540,
+"size": 14286
+},
+{
+"quality": 360,
+"size": 9524
+},
+{
+"quality": 144,
+"size": 3809
+}
+]
+},
+{
+"chapterId": "600291497",
+"chapterIndex": 5,
+"isCharge": 0,
+"isPay": 0,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 22444
+},
+{
+"quality": 540,
+"size": 16833
+},
+{
+"quality": 360,
+"size": 11222
+},
+{
+"quality": 144,
+"size": 4488
+}
+]
+},
+{
+"chapterId": "600291498",
+"chapterIndex": 6,
+"isCharge": 0,
+"isPay": 0,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 18775
+},
+{
+"quality": 540,
+"size": 14081
+},
+{
+"quality": 360,
+"size": 9387
+},
+{
+"quality": 144,
+"size": 3755
+}
+]
+},
+{
+"chapterId": "600291499",
+"chapterIndex": 7,
+"isCharge": 0,
+"isPay": 0,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 31130
+},
+{
+"quality": 540,
+"size": 23347
+},
+{
+"quality": 360,
+"size": 15565
+},
+{
+"quality": 144,
+"size": 6226
+}
+]
+},
+{
+"chapterId": "600291500",
+"chapterIndex": 8,
+"isCharge": 0,
+"isPay": 0,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 21195
+},
+{
+"quality": 540,
+"size": 15896
+},
+{
+"quality": 360,
+"size": 10597
+},
+{
+"quality": 144,
+"size": 4239
+}
+]
+},
+{
+"chapterId": "600291501",
+"chapterIndex": 9,
+"isCharge": 0,
+"isPay": 0,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 22939
+},
+{
+"quality": 540,
+"size": 17204
+},
+{
+"quality": 360,
+"size": 11469
+},
+{
+"quality": 144,
+"size": 4587
+}
+]
+},
+{
+"chapterId": "600291502",
+"chapterIndex": 10,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 21625
+},
+{
+"quality": 540,
+"size": 16218
+},
+{
+"quality": 360,
+"size": 10812
+},
+{
+"quality": 144,
+"size": 4325
+}
+]
+},
+{
+"chapterId": "600291503",
+"chapterIndex": 11,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 19379
+},
+{
+"quality": 540,
+"size": 14534
+},
+{
+"quality": 360,
+"size": 9689
+},
+{
+"quality": 144,
+"size": 3875
+}
+]
+},
+{
+"chapterId": "600291504",
+"chapterIndex": 12,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 11618
+},
+{
+"quality": 540,
+"size": 8713
+},
+{
+"quality": 360,
+"size": 5809
+},
+{
+"quality": 144,
+"size": 2323
+}
+]
+},
+{
+"chapterId": "600291505",
+"chapterIndex": 13,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 8182
+},
+{
+"quality": 540,
+"size": 6136
+},
+{
+"quality": 360,
+"size": 4091
+},
+{
+"quality": 144,
+"size": 1636
+}
+]
+},
+{
+"chapterId": "600291506",
+"chapterIndex": 14,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 9739
+},
+{
+"quality": 540,
+"size": 7304
+},
+{
+"quality": 360,
+"size": 4869
+},
+{
+"quality": 144,
+"size": 1947
+}
+]
+},
+{
+"chapterId": "600291507",
+"chapterIndex": 15,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 5444
+},
+{
+"quality": 540,
+"size": 4083
+},
+{
+"quality": 360,
+"size": 2722
+},
+{
+"quality": 144,
+"size": 1088
+}
+]
+},
+{
+"chapterId": "600291508",
+"chapterIndex": 16,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 11800
+},
+{
+"quality": 540,
+"size": 8850
+},
+{
+"quality": 360,
+"size": 5900
+},
+{
+"quality": 144,
+"size": 2360
+}
+]
+},
+{
+"chapterId": "600291509",
+"chapterIndex": 17,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 21439
+},
+{
+"quality": 540,
+"size": 16079
+},
+{
+"quality": 360,
+"size": 10719
+},
+{
+"quality": 144,
+"size": 4287
+}
+]
+},
+{
+"chapterId": "600291510",
+"chapterIndex": 18,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 5994
+},
+{
+"quality": 540,
+"size": 4495
+},
+{
+"quality": 360,
+"size": 2997
+},
+{
+"quality": 144,
+"size": 1198
+}
+]
+},
+{
+"chapterId": "600291511",
+"chapterIndex": 19,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 8704
+},
+{
+"quality": 540,
+"size": 6528
+},
+{
+"quality": 360,
+"size": 4352
+},
+{
+"quality": 144,
+"size": 1740
+}
+]
+},
+{
+"chapterId": "600291512",
+"chapterIndex": 20,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 7552
+},
+{
+"quality": 540,
+"size": 5664
+},
+{
+"quality": 360,
+"size": 3776
+},
+{
+"quality": 144,
+"size": 1510
+}
+]
+},
+{
+"chapterId": "600291513",
+"chapterIndex": 21,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 6815
+},
+{
+"quality": 540,
+"size": 5111
+},
+{
+"quality": 360,
+"size": 3407
+},
+{
+"quality": 144,
+"size": 1363
+}
+]
+},
+{
+"chapterId": "600291514",
+"chapterIndex": 22,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 7092
+},
+{
+"quality": 540,
+"size": 5319
+},
+{
+"quality": 360,
+"size": 3546
+},
+{
+"quality": 144,
+"size": 1418
+}
+]
+},
+{
+"chapterId": "600291515",
+"chapterIndex": 23,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 4692
+},
+{
+"quality": 540,
+"size": 3519
+},
+{
+"quality": 360,
+"size": 2346
+},
+{
+"quality": 144,
+"size": 938
+}
+]
+},
+{
+"chapterId": "600291516",
+"chapterIndex": 24,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 6305
+},
+{
+"quality": 540,
+"size": 4728
+},
+{
+"quality": 360,
+"size": 3152
+},
+{
+"quality": 144,
+"size": 1261
+}
+]
+},
+{
+"chapterId": "600291517",
+"chapterIndex": 25,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 7095
+},
+{
+"quality": 540,
+"size": 5321
+},
+{
+"quality": 360,
+"size": 3547
+},
+{
+"quality": 144,
+"size": 1419
+}
+]
+},
+{
+"chapterId": "600291518",
+"chapterIndex": 26,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 7729
+},
+{
+"quality": 540,
+"size": 5796
+},
+{
+"quality": 360,
+"size": 3864
+},
+{
+"quality": 144,
+"size": 1545
+}
+]
+},
+{
+"chapterId": "600291519",
+"chapterIndex": 27,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 6730
+},
+{
+"quality": 540,
+"size": 5047
+},
+{
+"quality": 360,
+"size": 3365
+},
+{
+"quality": 144,
+"size": 1346
+}
+]
+},
+{
+"chapterId": "600291520",
+"chapterIndex": 28,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 9062
+},
+{
+"quality": 540,
+"size": 6796
+},
+{
+"quality": 360,
+"size": 4531
+},
+{
+"quality": 144,
+"size": 1812
+}
+]
+},
+{
+"chapterId": "600291521",
+"chapterIndex": 29,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 8811
+},
+{
+"quality": 540,
+"size": 6608
+},
+{
+"quality": 360,
+"size": 4405
+},
+{
+"quality": 144,
+"size": 1762
+}
+]
+},
+{
+"chapterId": "600291522",
+"chapterIndex": 30,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 15627
+},
+{
+"quality": 540,
+"size": 11720
+},
+{
+"quality": 360,
+"size": 7813
+},
+{
+"quality": 144,
+"size": 3125
+}
+]
+},
+{
+"chapterId": "600291523",
+"chapterIndex": 31,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 13165
+},
+{
+"quality": 540,
+"size": 9873
+},
+{
+"quality": 360,
+"size": 6582
+},
+{
+"quality": 144,
+"size": 2633
+}
+]
+},
+{
+"chapterId": "600291524",
+"chapterIndex": 32,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 5393
+},
+{
+"quality": 540,
+"size": 4044
+},
+{
+"quality": 360,
+"size": 2696
+},
+{
+"quality": 144,
+"size": 1078
+}
+]
+},
+{
+"chapterId": "600291525",
+"chapterIndex": 33,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 7470
+},
+{
+"quality": 540,
+"size": 5602
+},
+{
+"quality": 360,
+"size": 3735
+},
+{
+"quality": 144,
+"size": 1494
+}
+]
+},
+{
+"chapterId": "600291526",
+"chapterIndex": 34,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 4782
+},
+{
+"quality": 540,
+"size": 3586
+},
+{
+"quality": 360,
+"size": 2391
+},
+{
+"quality": 144,
+"size": 956
+}
+]
+},
+{
+"chapterId": "600291527",
+"chapterIndex": 35,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 6258
+},
+{
+"quality": 540,
+"size": 4693
+},
+{
+"quality": 360,
+"size": 3129
+},
+{
+"quality": 144,
+"size": 1251
+}
+]
+},
+{
+"chapterId": "600291528",
+"chapterIndex": 36,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 11182
+},
+{
+"quality": 540,
+"size": 8386
+},
+{
+"quality": 360,
+"size": 5591
+},
+{
+"quality": 144,
+"size": 2236
+}
+]
+},
+{
+"chapterId": "600291529",
+"chapterIndex": 37,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 10051
+},
+{
+"quality": 540,
+"size": 7538
+},
+{
+"quality": 360,
+"size": 5025
+},
+{
+"quality": 144,
+"size": 2010
+}
+]
+},
+{
+"chapterId": "600291530",
+"chapterIndex": 38,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 11167
+},
+{
+"quality": 540,
+"size": 8375
+},
+{
+"quality": 360,
+"size": 5583
+},
+{
+"quality": 144,
+"size": 2233
+}
+]
+},
+{
+"chapterId": "600291531",
+"chapterIndex": 39,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 8770
+},
+{
+"quality": 540,
+"size": 6577
+},
+{
+"quality": 360,
+"size": 4385
+},
+{
+"quality": 144,
+"size": 1754
+}
+]
+},
+{
+"chapterId": "600291532",
+"chapterIndex": 40,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 7091
+},
+{
+"quality": 540,
+"size": 5318
+},
+{
+"quality": 360,
+"size": 3545
+},
+{
+"quality": 144,
+"size": 1418
+}
+]
+},
+{
+"chapterId": "600291533",
+"chapterIndex": 41,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 6375
+},
+{
+"quality": 540,
+"size": 4781
+},
+{
+"quality": 360,
+"size": 3187
+},
+{
+"quality": 144,
+"size": 1275
+}
+]
+},
+{
+"chapterId": "600291534",
+"chapterIndex": 42,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 7237
+},
+{
+"quality": 540,
+"size": 5427
+},
+{
+"quality": 360,
+"size": 3618
+},
+{
+"quality": 144,
+"size": 1447
+}
+]
+},
+{
+"chapterId": "600291535",
+"chapterIndex": 43,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 10723
+},
+{
+"quality": 540,
+"size": 8042
+},
+{
+"quality": 360,
+"size": 5361
+},
+{
+"quality": 144,
+"size": 2144
+}
+]
+},
+{
+"chapterId": "600291536",
+"chapterIndex": 44,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 6317
+},
+{
+"quality": 540,
+"size": 4737
+},
+{
+"quality": 360,
+"size": 3158
+},
+{
+"quality": 144,
+"size": 1263
+}
+]
+},
+{
+"chapterId": "600291537",
+"chapterIndex": 45,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 7762
+},
+{
+"quality": 540,
+"size": 5821
+},
+{
+"quality": 360,
+"size": 3881
+},
+{
+"quality": 144,
+"size": 1552
+}
+]
+},
+{
+"chapterId": "600291538",
+"chapterIndex": 46,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 7044
+},
+{
+"quality": 540,
+"size": 5283
+},
+{
+"quality": 360,
+"size": 3522
+},
+{
+"quality": 144,
+"size": 1408
+}
+]
+},
+{
+"chapterId": "600291539",
+"chapterIndex": 47,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 12601
+},
+{
+"quality": 540,
+"size": 9450
+},
+{
+"quality": 360,
+"size": 6300
+},
+{
+"quality": 144,
+"size": 2520
+}
+]
+},
+{
+"chapterId": "600291540",
+"chapterIndex": 48,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 5803
+},
+{
+"quality": 540,
+"size": 4352
+},
+{
+"quality": 360,
+"size": 2901
+},
+{
+"quality": 144,
+"size": 1160
+}
+]
+},
+{
+"chapterId": "600291541",
+"chapterIndex": 49,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 8138
+},
+{
+"quality": 540,
+"size": 6103
+},
+{
+"quality": 360,
+"size": 4069
+},
+{
+"quality": 144,
+"size": 1627
+}
+]
+},
+{
+"chapterId": "600291542",
+"chapterIndex": 50,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 7308
+},
+{
+"quality": 540,
+"size": 5481
+},
+{
+"quality": 360,
+"size": 3654
+},
+{
+"quality": 144,
+"size": 1461
+}
+]
+},
+{
+"chapterId": "600291543",
+"chapterIndex": 51,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 8540
+},
+{
+"quality": 540,
+"size": 6405
+},
+{
+"quality": 360,
+"size": 4270
+},
+{
+"quality": 144,
+"size": 1708
+}
+]
+},
+{
+"chapterId": "600291544",
+"chapterIndex": 52,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 6849
+},
+{
+"quality": 540,
+"size": 5136
+},
+{
+"quality": 360,
+"size": 3424
+},
+{
+"quality": 144,
+"size": 1369
+}
+]
+},
+{
+"chapterId": "600291545",
+"chapterIndex": 53,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 8388
+},
+{
+"quality": 540,
+"size": 6291
+},
+{
+"quality": 360,
+"size": 4194
+},
+{
+"quality": 144,
+"size": 1677
+}
+]
+},
+{
+"chapterId": "600291546",
+"chapterIndex": 54,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 9171
+},
+{
+"quality": 540,
+"size": 6878
+},
+{
+"quality": 360,
+"size": 4585
+},
+{
+"quality": 144,
+"size": 1834
+}
+]
+},
+{
+"chapterId": "600291547",
+"chapterIndex": 55,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 10377
+},
+{
+"quality": 540,
+"size": 7782
+},
+{
+"quality": 360,
+"size": 5188
+},
+{
+"quality": 144,
+"size": 2075
+}
+]
+},
+{
+"chapterId": "600291548",
+"chapterIndex": 56,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 9030
+},
+{
+"quality": 540,
+"size": 6772
+},
+{
+"quality": 360,
+"size": 4515
+},
+{
+"quality": 144,
+"size": 1806
+}
+]
+},
+{
+"chapterId": "600291549",
+"chapterIndex": 57,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 9137
+},
+{
+"quality": 540,
+"size": 6852
+},
+{
+"quality": 360,
+"size": 4568
+},
+{
+"quality": 144,
+"size": 1827
+}
+]
+},
+{
+"chapterId": "600291550",
+"chapterIndex": 58,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 5280
+},
+{
+"quality": 540,
+"size": 3960
+},
+{
+"quality": 360,
+"size": 2640
+},
+{
+"quality": 144,
+"size": 1056
+}
+]
+},
+{
+"chapterId": "600291551",
+"chapterIndex": 59,
+"isCharge": 1,
+"isPay": 1,
+"chapterSizeVoList": [
+{
+"quality": 720,
+"size": 15317
+},
+{
+"quality": 540,
+"size": 11487
+},
+{
+"quality": 360,
+"size": 7658
+},
+{
+"quality": 144,
+"size": 3063
+}
+]
+}
+]
+},
+"meta": {
+"source": "1"
+}
+}

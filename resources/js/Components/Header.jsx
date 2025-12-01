@@ -19,7 +19,7 @@ export default function Header() {
                 <div className="flex items-center justify-between h-16 md:h-20">
                     {/* Logo */}
                     <Link href="/" className="flex items-center space-x-2 group">
-                        <div className="text-2xl md:text-3xl font-bold font-display text-gradient">
+                        <div className="text-2xl md:text-3xl font-bold font-display text-white">
                             DramaBox
                         </div>
                     </Link>
@@ -32,7 +32,7 @@ export default function Header() {
                                 <Link
                                     key={item.name}
                                     href={item.href}
-                                    className="flex items-center space-x-2 px-4 py-2 rounded-lg text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-secondary transition-smooth"
+                                    className="flex items-center space-x-2 px-4 py-2 rounded-lg text-sm font-medium text-gray-300 hover:text-white hover:bg-white/10 transition-smooth"
                                 >
                                     <Icon className="h-4 w-4" />
                                     <span>{item.name}</span>
@@ -49,7 +49,7 @@ export default function Header() {
                     {/* Mobile Menu Button */}
                     <button
                         onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                        className="md:hidden p-2 rounded-lg hover:bg-secondary transition-smooth"
+                        className="md:hidden p-2 rounded-lg text-white hover:bg-white/10 transition-smooth"
                     >
                         {mobileMenuOpen ? (
                             <X className="h-6 w-6" />
@@ -75,7 +75,7 @@ export default function Header() {
                                 <Link
                                     key={item.name}
                                     href={item.href}
-                                    className="flex items-center space-x-3 px-4 py-3 rounded-lg text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-secondary transition-smooth"
+                                    className="flex items-center space-x-3 px-4 py-3 rounded-lg text-sm font-medium text-gray-300 hover:text-white hover:bg-white/10 transition-smooth"
                                     onClick={() => setMobileMenuOpen(false)}
                                 >
                                     <Icon className="h-5 w-5" />

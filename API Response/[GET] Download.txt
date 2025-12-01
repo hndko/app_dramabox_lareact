@@ -1,0 +1,44 @@
+cURL Example (GET):
+curl -X GET "https://sapi.dramabox.be/api/watch/41000121167/0?source=search_result"
+
+Response:
+{
+"success": true,
+"data": {
+"bookId": "41000121167",
+"chapterIndex": 0,
+"videoUrl": "https://hwztvideo.dramaboxdb.com/29/7x6/76x1/761x1/76112100014/600291492_1/600291492.1080p.wz.g264.mp4?Expires=1764640800&Signature=AT2n-o0NAIc9SFblnHhSXNdiVj0FyX7B-~1WJTSpXxUrbYk6QSfsevUvr1NNTiCwX7uYw3ME0YhE5aNE5dNSUj2ZTzRHuaDEZ-z9wyd8-XRR7kD9oyvv24RoCgEm90S-ZTbPE0IhLE50ECWwUnmKiuGZteVMBSRD0JRY4-zYrvmfBa7KhRgMiaBmClOWBSWKElL50iur5DfUr18EfZN2qxL7teCFHibLbV-OVDkDF~nC19uaGE0oeJPBnCcbAQMQD6GKZVUdY8ZSC5MVPcKl-kiNfHwkO-MEthpew~gXPRzRpnYE9up2P7qwZCAcJ3PnxbERwIYmlx8T7Iy~hLdGHA__&Key-Pair-Id=K3HA2TLE2QH99V",
+"qualities": [
+{
+"quality": 1080,
+"videoPath": "https://hwztvideo.dramaboxdb.com/29/7x6/76x1/761x1/76112100014/600291492_1/600291492.1080p.wz.g264.mp4?Expires=1764640800&Signature=AT2n-o0NAIc9SFblnHhSXNdiVj0FyX7B-~1WJTSpXxUrbYk6QSfsevUvr1NNTiCwX7uYw3ME0YhE5aNE5dNSUj2ZTzRHuaDEZ-z9wyd8-XRR7kD9oyvv24RoCgEm90S-ZTbPE0IhLE50ECWwUnmKiuGZteVMBSRD0JRY4-zYrvmfBa7KhRgMiaBmClOWBSWKElL50iur5DfUr18EfZN2qxL7teCFHibLbV-OVDkDF~nC19uaGE0oeJPBnCcbAQMQD6GKZVUdY8ZSC5MVPcKl-kiNfHwkO-MEthpew~gXPRzRpnYE9up2P7qwZCAcJ3PnxbERwIYmlx8T7Iy~hLdGHA__&Key-Pair-Id=K3HA2TLE2QH99V",
+"isDefault": 0,
+"isEntry": 0,
+"isVipEquity": 1
+},
+{
+"quality": 720,
+"videoPath": "https://hwztvideo.dramaboxdb.com/29/7x6/76x1/761x1/76112100014/600291492_1/600291492.720p.narrowv3.mp4?Expires=1764640800&Signature=I6S44ybZ-ffnHyZNGKI7loV9ljdh3XytoC~rsHBu176vbgXpbbMutaxDQ4dpOr-WBEKPf-vSEsxBbYmX43eWBld5NX2yE0bikyAu590xEIITJxuffkujQPZbonwCVwGoTDYGjT2noX4pnJwdDBkbm4qOuK7ha9EHZkaEFqYqkD1LOreczSIFUUq8juB28eOsY~4AKiu145omZP9LlzgKFAQX~6X5ZbIePYYTacj0jxhplCjnju782I6GRxyYzhZ7r1PR7~GfiziyGyeaFJkFO9IEp4~3~q2CICAHdR869jLTZ7gtkXtYVUVv1H5e7c76TFmibE97F3jpWrJNsWDuiQ__&Key-Pair-Id=K3HA2TLE2QH99V",
+"isDefault": 1,
+"isEntry": 0,
+"isVipEquity": 0
+},
+{
+"quality": 540,
+"videoPath": "https://hwztvideo.dramaboxdb.com/29/7x6/76x1/761x1/76112100014/600291492_1/600291492.540p.narrowv2.mp4?Expires=1764640800&Signature=IVDY45Qo3xAeEUB8na1KktMA-5~Cu-~BYiTQ38udzOGVMQ8-JyD4d-bQa9MjmTafLAemjev2aGOXC5JTRl45-sClIK-ZebKY4XG1VUlpH1BQFFVAIg02fZO6HxEOnoGiDQOQJ0HVafT43Kf2692brF-sIwVjEnyj0B5vopccGRpP4AenzZnRg6KMr9zmdIilTTnENbVFL3fQcIXtp0AZmjcsoTKziHgUeJqqWUaZnuqdmeBlCyuzl2ZlJ5LWGjwHLDje0M-eanyAKnB1fl4ctzLK2sFegcexgahAQGW7PguH92CeOIv~ahE-TQn9mwOP8rDB-vJNZuVFN9UAKTFvGg__&Key-Pair-Id=K3HA2TLE2QH99V",
+"isDefault": 0,
+"isEntry": 0,
+"isVipEquity": 0
+}
+],
+"cover": "https://hwztvideo.dramaboxdb.com/29/7x6/76x1/761x1/76112100014/600291492_1/600291492.mp4.jpg",
+"unlockedNow": false,
+"originalStatus": {
+"isCharge": 0
+}
+},
+"meta": {
+"latency": 83,
+"source": "0"
+}
+}

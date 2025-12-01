@@ -1,0 +1,419 @@
+cURL Example (GET):
+curl -X GET "https://sapi.dramabox.be/api/search/ceo/1"
+
+Response:
+{
+"success": true,
+"data": {
+"list": [
+{
+"bookId": "41000117905",
+"bookName": "Dijebak ke Dekapan CEO",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000117905/41000117905.jpg?t=1751358285567&image_process=resize,h_300",
+"chapterCount": 0,
+"playCount": "18.3M"
+},
+{
+"bookId": "41000113177",
+"bookName": "Pesona Istri Manis Sang CEO (Sulih Suara)",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000113177/41000113177.jpg?t=1741316061969&image_process=resize,h_300",
+"chapterCount": 0,
+"playCount": "57.6M"
+},
+{
+"bookId": "41000103051",
+"bookName": "Istri CEO yang Bisu",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000103051/41000103051.jpg?t=1712456404384&image_process=resize,h_300",
+"chapterCount": 0,
+"playCount": "38.8M"
+},
+{
+"bookId": "41000111771",
+"bookName": "Pesona Istri Manis Sang CEO",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000111771/41000111771.jpg?t=1737707779820&image_process=resize,h_300",
+"chapterCount": 0,
+"playCount": "53.4M"
+},
+{
+"bookId": "41000109843",
+"bookName": "Mantan Istriku Jadi CEO",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000109843/41000109843.jpg?t=1734947452340&image_process=resize,h_300",
+"chapterCount": 0,
+"playCount": "1.1M"
+},
+{
+"bookId": "41000117593",
+"bookName": "Ops, Suami Kilatku Ternyata CEO",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000117593/41000117593.jpg?t=1750758519300&image_process=resize,h_300",
+"chapterCount": 0,
+"playCount": "4.1M"
+},
+{
+"bookId": "41000103437",
+"bookName": "CEO’s Substitute Wife",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000103437/41000103437.jpg?t=1715304992580&image_process=resize,h_300",
+"chapterCount": 0,
+"playCount": "43.7M"
+},
+{
+"bookId": "41000105854",
+"bookName": "CEOとスピード結婚した件",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000105854/41000105854.jpg?t=1725498943087&image_process=resize,h_300",
+"chapterCount": 0,
+"playCount": "1.1M"
+},
+{
+"bookId": "41000117204",
+"bookName": "The CEO",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000117204/41000117204.jpg?t=1750144949740&image_process=resize,h_300",
+"chapterCount": 0,
+"playCount": "1.2M"
+},
+{
+"bookId": "42000000091",
+"bookName": "Free My Heart, Mr. CEO",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000000091/42000000091.jpg?t=1762508725347&image_process=resize,h_300",
+"chapterCount": 0,
+"playCount": "3.5M"
+}
+],
+"isMore": false,
+"raw": {
+"data": {
+"keyword": "ceo",
+"searchList": [
+{
+"bookId": "41000117905",
+"bookName": "Dijebak ke Dekapan CEO",
+"introduction": "Siska selalu ditindas oleh keluarganya sendiri, semua uangnya dikuras hanya untuk memenuhi kebutuhan semua adiknya yang nggak berguna. Sang ibu pun nggak mau tahu bagaimana nasib Siska, asalkan uang yang ia minta selalu diberikan. Di saat Siska terjebak dalam kegelapan dan mencari-cari cahaya untuk kabur, Andi pun datang bagaikan sang pahlawan. Pria tersebut menyelamatkan nyawa dan harga dirinya, dan mungkin saja akan mengubah seluruh hidupnya menjadi lebih baik.",
+"author": "",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000117905/41000117905.jpg?t=1751358285567&image_process=resize,h_300",
+"inLibraryCount": 0,
+"bookSource": {
+"sceneId": "ovs_vd_search_reco",
+"expId": "bigdata_rec",
+"strategyId": "g87qkvuq",
+"strategyName": "",
+"log_id": "33acde2dad286ddc8e45bbcfd08d5608"
+},
+"playCount": "18.3M",
+"sort": 0,
+"protagonist": "Siska Melyana,  Andi Roksa",
+"tagNames": [
+"CEO",
+"Cinta Semalam",
+"Takdir Cinta",
+"Penebusan",
+"Modern",
+"Romansa"
+],
+"corner": {
+"cornerType": 4,
+"name": "Anggota Saja",
+"color": "#4D65ED"
+},
+"markNamesConnectKey": ", ",
+"algorithmRecomDot": "{\"log_id\":\"33acde2dad286ddc8e45bbcfd08d5608\",\"ret_time\":\"1764541648326\",\"scene_id\":\"ovs_vd_search_reco\",\"rec_id\":\"bigdata_rec\"}",
+"inLibrary": false
+},
+{
+"bookId": "41000113177",
+"bookName": "Pesona Istri Manis Sang CEO (Sulih Suara)",
+"introduction": "Shayna dan Darren secara tidak sengaja berhubungan dan menghasilkan seorang anak bernama Felix. Enam tahun kemudian, Darren mengetahuinya dan mulai mencari anak tersebut. Selama waktu itu, hubungan Shayna dengan Darren di Grup Agusta makin dekat, dan secara perlahan perasaan cinta mulai tumbuh di hati Shayna. Felix akhirnya diakui sebagai anak kandung Darren dan kembali ke keluarga besar, sementara Shayna pun hidup berkecukupan.",
+"author": "",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000113177/41000113177.jpg?t=1741316061969&image_process=resize,h_300",
+"inLibraryCount": 0,
+"bookSource": {
+"sceneId": "ovs_vd_search_reco",
+"expId": "bigdata_rec",
+"strategyId": "g87qkvuq",
+"strategyName": "",
+"log_id": "33acde2dad286ddc8e45bbcfd08d5608"
+},
+"playCount": "57.6M",
+"sort": 0,
+"protagonist": "Darren Agusta,  Shayna Santoso",
+"tagNames": [
+"CEO",
+"Kabur Saat Hamil",
+"Keluarga",
+"Ibu Tunggal",
+"Cinta Setelah Menikah",
+"Modern"
+],
+"corner": {
+"cornerType": 3,
+"name": "Sulih Suara",
+"color": "#4D65ED"
+},
+"markNamesConnectKey": ", ",
+"algorithmRecomDot": "{\"log_id\":\"33acde2dad286ddc8e45bbcfd08d5608\",\"ret_time\":\"1764541648326\",\"scene_id\":\"ovs_vd_search_reco\",\"rec_id\":\"bigdata_rec\"}",
+"inLibrary": false
+},
+{
+"bookId": "41000103051",
+"bookName": "Istri CEO yang Bisu",
+"introduction": "Ben Lumar punya wanita yang dia cintai, juga wanita yang selalu dia manjakan, bahkan rela mengorbankan nyawa dan banyak uang deminya.Dan, Ben Lumar juga punya istri bisu yang tidak diketahui orang-orang, dia hanya wanita yang bisa mengandalkan Ben.Bahkan Ben pun mengira tanpa dirinya, si bisu tak akan bisa hidup. Suatu hari, si bisu malah memberinya surat cerai, hal ini membuat Ben tak tenang lagi.",
+"author": "",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000103051/41000103051.jpg?t=1712456404384&image_process=resize,h_300",
+"inLibraryCount": 0,
+"bookSource": {
+"sceneId": "ovs_vd_search_reco",
+"expId": "bigdata_rec",
+"strategyId": "g87qkvuq",
+"strategyName": "",
+"log_id": "33acde2dad286ddc8e45bbcfd08d5608"
+},
+"playCount": "38.8M",
+"sort": 0,
+"protagonist": "Della, Ben",
+"tagNames": [
+"CEO",
+"Pembalikan Identitas",
+"Perselingkuhan",
+"Mengejar Istri",
+"Gadis Naif",
+"Cinta Terlarang"
+],
+"markNamesConnectKey": ", ",
+"algorithmRecomDot": "{\"log_id\":\"33acde2dad286ddc8e45bbcfd08d5608\",\"ret_time\":\"1764541648326\",\"scene_id\":\"ovs_vd_search_reco\",\"rec_id\":\"bigdata_rec\"}",
+"inLibrary": false
+},
+{
+"bookId": "41000111771",
+"bookName": "Pesona Istri Manis Sang CEO",
+"introduction": "Shayna dan Darren secara tidak sengaja berhubungan dan menghasilkan seorang anak bernama Felix. Enam tahun kemudian, Darren mengetahuinya dan mulai mencari anak tersebut. Selama waktu itu, hubungan Shayna dengan Darren di Grup Agusta makin dekat, dan secara perlahan perasaan cinta mulai tumbuh di hati Shayna. Felix akhirnya diakui sebagai anak kandung Darren dan kembali ke keluarga besar, sementara Shayna pun hidup berkecukupan.",
+"author": "",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000111771/41000111771.jpg?t=1737707779820&image_process=resize,h_300",
+"inLibraryCount": 0,
+"bookSource": {
+"sceneId": "ovs_vd_search_reco",
+"expId": "bigdata_rec",
+"strategyId": "g87qkvuq",
+"strategyName": "",
+"log_id": "33acde2dad286ddc8e45bbcfd08d5608"
+},
+"playCount": "53.4M",
+"sort": 0,
+"protagonist": "Darren Agusta,  Shayna Santoso",
+"tagNames": [
+"CEO",
+"Kabur Saat Hamil",
+"Keluarga",
+"Wanita Mandiri",
+"Cinta Setelah Menikah",
+"Modern"
+],
+"corner": {
+"cornerType": 4,
+"name": "Anggota Saja",
+"color": "#4D65ED"
+},
+"markNamesConnectKey": ", ",
+"algorithmRecomDot": "{\"log_id\":\"33acde2dad286ddc8e45bbcfd08d5608\",\"ret_time\":\"1764541648326\",\"scene_id\":\"ovs_vd_search_reco\",\"rec_id\":\"bigdata_rec\"}",
+"inLibrary": false
+},
+{
+"bookId": "41000109843",
+"bookName": "Mantan Istriku Jadi CEO",
+"introduction": "Sharon Green, seorang desainer yang juga pemilik dan CEO grup desain terkemuka, menyembunyikan identitasnya demi menjaga perasaan Martin, suaminya, agar tidak merasa tertekan. Walaupun sepenuh hati mendukung suaminya, dia mendapatkan pengkhianatan dan penghinaan. Setelah bercerai, Sharon mengungkap identitas aslinya pada sebuah gala, memutus kontrak kerja bisnis Martin dan mendapatkan kembali pengaruhnya sebagai seorang wanita yang kuat dan mandiri.",
+"author": "",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000109843/41000109843.jpg?t=1734947452340&image_process=resize,h_300",
+"inLibraryCount": 0,
+"bookSource": {
+"sceneId": "ovs_vd_search_reco",
+"expId": "bigdata_rec",
+"strategyId": "g87qkvuq",
+"strategyName": "",
+"log_id": "33acde2dad286ddc8e45bbcfd08d5608"
+},
+"playCount": "1.1M",
+"sort": 0,
+"protagonist": "Martin Davis,  Sharon Green",
+"tagNames": [
+"Pembalikan Identitas",
+"Serangan Balik",
+"Perselingkuhan",
+"Wanita Karier",
+"Modern",
+"Wanita Kuat"
+],
+"corner": {
+"cornerType": 7,
+"name": "Eksklusif",
+"color": "#4D65ED"
+},
+"markNamesConnectKey": ", ",
+"algorithmRecomDot": "{\"log_id\":\"33acde2dad286ddc8e45bbcfd08d5608\",\"ret_time\":\"1764541648326\",\"scene_id\":\"ovs_vd_search_reco\",\"rec_id\":\"bigdata_rec\"}",
+"inLibrary": false
+},
+{
+"bookId": "41000117593",
+"bookName": "Ops, Suami Kilatku Ternyata CEO",
+"introduction": "Nensi dipaksa untuk kencan buta. Dengan nggak sengaja, dia malah nikah langsung dengan pewaris Keluarga Foland yang sangat berkuasa. Dia kira suaminya hanyalah orang biasa yang nggak punya rumah. Suaminya juga takut kalau identitasnya terbongkar, akan berakibat pada hubungan mereka, jadi suaminya manjakan dia sambil sembunyikan identitas. Sampai suatu hari, dia ketahui rahasia suaminya yang merupakan orang kaya.",
+"author": "",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000117593/41000117593.jpg?t=1750758519300&image_process=resize,h_300",
+"inLibraryCount": 0,
+"bookSource": {
+"sceneId": "ovs_vd_search_reco",
+"expId": "bigdata_rec",
+"strategyId": "g87qkvuq",
+"strategyName": "",
+"log_id": "33acde2dad286ddc8e45bbcfd08d5608"
+},
+"playCount": "4.1M",
+"sort": 0,
+"protagonist": "Nensi Moris,  Tery Foland",
+"tagNames": [
+"Pembalikan Identitas",
+"Mengejar Istri",
+"Salah Identitas",
+"Cinta Setelah Menikah",
+"Modern",
+"Romansa"
+],
+"markNamesConnectKey": ", ",
+"algorithmRecomDot": "{\"log_id\":\"33acde2dad286ddc8e45bbcfd08d5608\",\"ret_time\":\"1764541648326\",\"scene_id\":\"ovs_vd_search_reco\",\"rec_id\":\"bigdata_rec\"}",
+"inLibrary": false
+},
+{
+"bookId": "41000103437",
+"bookName": "CEO’s Substitute Wife",
+"introduction": "Framed and abandoned, Alice, the adopted daughter of the influential Dunn family, faced a relentless betrayal. Ariel, her long-lost twin, who walks in as Alice to seek vengeance. With the enigmatic Vincent by her side, Ariel navigates a treacherous path of deceit and danger. As their quest for retribution unfolds, dark secrets emerge, blurring the line between ally and enemy.",
+"author": "",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000103437/41000103437.jpg?t=1715304992580&image_process=resize,h_300",
+"inLibraryCount": 0,
+"bookSource": {
+"sceneId": "ovs_vd_search_reco",
+"expId": "bigdata_rec",
+"strategyId": "g87qkvuq",
+"strategyName": "",
+"log_id": "33acde2dad286ddc8e45bbcfd08d5608"
+},
+"playCount": "43.7M",
+"sort": 0,
+"protagonist": " Vincent Ross,  Ariel Clark",
+"tagNames": [
+"Revenge",
+"Hidden Identity",
+"Family Intrigue",
+"The Chosen One",
+"Modern",
+"Strong Heroine"
+],
+"corner": {
+"cornerType": 4,
+"name": "Anggota Saja",
+"color": "#4D65ED"
+},
+"markNamesConnectKey": ", ",
+"algorithmRecomDot": "{\"log_id\":\"33acde2dad286ddc8e45bbcfd08d5608\",\"ret_time\":\"1764541648327\",\"scene_id\":\"ovs_vd_search_reco\",\"rec_id\":\"bigdata_rec\"}",
+"inLibrary": false
+},
+{
+"bookId": "41000105854",
+"bookName": "CEOとスピード結婚した件",
+"introduction": "愛と嘘、そして誤解が絡み合う物語！新しい職場での生活をスタートしたアイリーン・スミスは、想像もしていなかったほどに、自分の上司であるカリスマ的な億万長者に心を奪われていく。一方で、アイリーンはすでに1年前から結婚していたが、夫との出会いは稀で、お互いの顔すら忘れかけていた。運命のいたずらか、壮絶な展開の中で、彼女は息をのむ事実を知ることになる。その魅力的なCEOが、実はずっと探し求めていた自分の夫だったのだ…",
+"author": "",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000105854/41000105854.jpg?t=1725498943087&image_process=resize,h_300",
+"inLibraryCount": 0,
+"bookSource": {
+"sceneId": "ovs_vd_search_reco",
+"expId": "bigdata_rec",
+"strategyId": "g87qkvuq",
+"strategyName": "",
+"log_id": "33acde2dad286ddc8e45bbcfd08d5608"
+},
+"playCount": "1.1M",
+"sort": 0,
+"protagonist": "アンソニー・プライス アイリーン・スミス",
+"tagNames": [
+"身分逆転",
+"人違い",
+"俺様社長",
+"キャリアウーマン",
+"運命の相手",
+"片思い"
+],
+"corner": {
+"cornerType": 7,
+"name": "Eksklusif",
+"color": "#4D65ED"
+},
+"markNamesConnectKey": " ",
+"algorithmRecomDot": "{\"log_id\":\"33acde2dad286ddc8e45bbcfd08d5608\",\"ret_time\":\"1764541648327\",\"scene_id\":\"ovs_vd_search_reco\",\"rec_id\":\"bigdata_rec\"}",
+"inLibrary": false
+},
+{
+"bookId": "41000117204",
+"bookName": "The CEO",
+"introduction": "Lucas, once a poor boy raised by his single mother, endured harsh treatment from his wealthy classmates because of his humble background while they were in school. Despite the odds, he grows up determined and becomes a successful CEO of his own thriving company. Ironically, some of his former classmates who once bullied him now work for his company, unaware of his identity because he keeps his life private. ",
+"author": "",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000117204/41000117204.jpg?t=1750144949740&image_process=resize,h_300",
+"inLibraryCount": 0,
+"bookSource": {
+"sceneId": "ovs_vd_search_reco",
+"expId": "bigdata_rec",
+"strategyId": "g87qkvuq",
+"strategyName": "",
+"log_id": "33acde2dad286ddc8e45bbcfd08d5608"
+},
+"playCount": "1.2M",
+"sort": 0,
+"protagonist": "Lucas,  Anna",
+"tagNames": [
+"Hidden Identity",
+"Billionaire",
+"Modern"
+],
+"markNamesConnectKey": ", ",
+"algorithmRecomDot": "{\"log_id\":\"33acde2dad286ddc8e45bbcfd08d5608\",\"ret_time\":\"1764541648327\",\"scene_id\":\"ovs_vd_search_reco\",\"rec_id\":\"bigdata_rec\"}",
+"inLibrary": false
+},
+{
+"bookId": "42000000091",
+"bookName": "Free My Heart, Mr. CEO",
+"introduction": "After years of secretly dating her billionaire boss, Mable is shocked by his engagement news, realizing she's been a stand-in for his lost first love. Fleeing his pursuit, Mable stumbles into a whirl of fate, love and scandal.",
+"author": "",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000000091/42000000091.jpg?t=1762508725347&image_process=resize,h_300",
+"inLibraryCount": 0,
+"bookSource": {
+"sceneId": "ovs_vd_search_reco",
+"expId": "bigdata_rec",
+"strategyId": "g87qkvuq",
+"strategyName": "",
+"log_id": "33acde2dad286ddc8e45bbcfd08d5608"
+},
+"playCount": "3.5M",
+"sort": 0,
+"protagonist": "Jonathan Whiteford,  Mable Morris",
+"tagNames": [
+"Love Triangle",
+"Billionaire",
+"Romance",
+"Betrayal",
+"Modern",
+"BG"
+],
+"markNamesConnectKey": ", ",
+"algorithmRecomDot": "{\"log_id\":\"33acde2dad286ddc8e45bbcfd08d5608\",\"ret_time\":\"1764541648327\",\"scene_id\":\"ovs_vd_search_reco\",\"rec_id\":\"bigdata_rec\"}",
+"inLibrary": false
+}
+],
+"totalSize": 0,
+"isMore": 1,
+"cornerSwitch": true
+},
+"status": 0,
+"message": "success",
+"timestamp": 1764541648341,
+"ip": "2a06:98c0:3600::103",
+"region": "美国",
+"path": "/search/search",
+"success": true
+}
+},
+"meta": {
+"source": "1"
+}
+}

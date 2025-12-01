@@ -1,0 +1,853 @@
+cURL Example (GET):
+curl -X GET "https://sapi.dramabox.be/api/classify?pageNo=1&genre=1357&sort=1&lang=in"
+
+Response (GET):
+{
+"success": true,
+"data": {
+"list": [
+{
+"bookId": "41000119880",
+"bookName": "Kupasrahkan Diriku Pada Cintamu",
+"introduction": "Saat datang menemui kekasihnya, Olivia secara tak sengaja bertemu dengan Ellis, seorang CEO miliarder paruh baya yang sekaligus ayah kekasihnya. Perkenalan Olivia dengan Ellis menuntun Olivia yang polos memasuki dunia percintaan yang berbeda, yang penuh hasrat dan dominasi...  ",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000119880/41000119880.jpg?t=1754981919641",
+"chapterCount": 54,
+"playCount": "42.9M",
+"corner": {
+"cornerType": 7,
+"name": "Eksklusif",
+"color": "#4D65ED"
+}
+},
+{
+"bookId": "42000000277",
+"bookName": "Bayangmu yang Hilang (Sulih Suara)",
+"introduction": "Orang tua Kirana mengemudi dalam keadaan mabuk di hari pernikahan, menyebabkan Reza kehilangan seluruh keluarganya. Pernikahan itu berubah menjadi pemakaman, dan kekasih menjadi musuh. Untuk menebus dosa, Kirana tetap di sisi Reza selama lima tahun, menanggung semua penderitaan yang diberikan oleh Reza. Setelah lima tahun, hubungan mereka berakhir dengan penyesalan. Reza sangat terpukul setelah kehilangannya...",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000000277/42000000277.jpg?t=1762846854810",
+"chapterCount": 71,
+"playCount": "621K",
+"corner": {
+"cornerType": 6,
+"name": "Terpopuler",
+"color": "#FF2965"
+}
+},
+{
+"bookId": "41000106679",
+"bookName": "Pernikahan Tidak Terdugaku (Sulih Suara)",
+"introduction": "Karena dipaksa menikah oleh manajer tokonya, Lia menikahi seorang pria jomblo yang sudah pernah menikah dan memiliki anak kembar. Awalnya berpikir kehidupan setelah menikah akan sangat tentra dan damai, tidak disangka pria ini adalah pria terkaya di kota! Lia: Ben! Apa lagi yang kau rahasiakan dariku? Ben memeluk kedua anaknya: Sebenarnya mereka juga anak kandungmu…",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000106679/41000106679.jpg?t=1728466420951",
+"chapterCount": 99,
+"playCount": "32.2M",
+"corner": {
+"cornerType": 3,
+"name": "Sulih Suara",
+"color": "#4D65ED"
+}
+},
+{
+"bookId": "41000115600",
+"bookName": "Jadikan Aku Milikmu Selamanya",
+"introduction": " Bella terpaksa harus menari striptis demi membiayai adiknya yang sakit berat. Tanpa diduga Bella bertemu dengan seorang miliarder kaya bernama Marcus. Marcus yang melihat ada sesuatu dalam diri Bella berniat menolongnya dengan memberikan suatu kontrak aneh yang dapat menyelesaikan semua biaya pengobatan adiknya. Akankah kontrak ini membuat Bella menyelesaikan masalahnya ataukah membuatnya jatuh dalam permainan cinta yang mengandung resiko?",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000115600/41000115600.jpg?t=1746522685308",
+"chapterCount": 55,
+"playCount": "8.8M",
+"corner": {
+"cornerType": 7,
+"name": "Eksklusif",
+"color": "#4D65ED"
+}
+},
+{
+"bookId": "41000116653",
+"bookName": "Sst, Jangan Bilang Siapa-Siapa",
+"introduction": "Pada suatu malam di sebuah bar, Vincent yang kesal karena ayahnya akan menikah lagi dengan seorang janda beranak satu, menyelamatkan Fiona, yang dijual pacarnya ke seorang preman. Keesokan harinya di saat pernikahan ayahnya, Vincent baru tahu kalau Fiona adalah calon adik tiri barunya. Kesal karena menganggap ibu dan anak itu hanya mengincar harta keluarga, Vincent bertekad mengerjai Fiona agar dia dan ibunya diusir dari keluarga Vincent.",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000116653/41000116653.jpg?t=1748929066809",
+"chapterCount": 57,
+"playCount": "20.3M",
+"corner": {
+"cornerType": 7,
+"name": "Eksklusif",
+"color": "#4D65ED"
+}
+},
+{
+"bookId": "41000116902",
+"bookName": "Asmara di Atas Awan",
+"introduction": "Harper berhasil mewujudkan impiannya menjadi pramugari sebuah maskapai keluarga. Dalam hidupnya yang sulit dimana ayahnya penjudi kambuhan dan ibunya yang dirawat di rumah sakit, Harper menerima bantuan dana dari seorang misterius bernama Tn. Wright. Satu hal yang tidak diketahuinya, Tn. Wright yang selama ini membantunya telah memendam cinta padanya dan menjadi CEO maskapai keluarga yang baru dimasukinya.",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000116902/41000116902.jpg?t=1749523022917",
+"chapterCount": 64,
+"playCount": "12M",
+"corner": {
+"cornerType": 7,
+"name": "Eksklusif",
+"color": "#4D65ED"
+}
+},
+{
+"bookId": "42000000454",
+"bookName": "Saat Hati Terlanjur Tersakiti",
+"introduction": " Setelah orangtuanya meninggal, Joy diasuh keluarga Reynolds yang hangat, termasuk kedua putra mereka, Gavin dan Elliot. Segalanya berubah saat Megan, putri pelayan, datang dan licik memisahkan Joy dari mereka. Joy pun pergi dan menikah dengan Nathan, pewaris miliarder. Setelah tipu muslihat Megan terbongkar, mungkinkah Gavin dan Elliot bisa merebut kembali hati Joy yang terluka?",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000000454/42000000454.jpg?t=1763371711125",
+"chapterCount": 53,
+"playCount": "449K",
+"corner": {
+"cornerType": 6,
+"name": "Terpopuler",
+"color": "#FF2965"
+}
+},
+{
+"bookId": "41000118123",
+"bookName": "Nafsu Terlarang",
+"introduction": "Lima tahun lalu, Kaiden Loren melanggar pantangan. Citra Joana membiusnya kemudian melarikan diri. Citra menyembunyikan identitas, tapi mereka tetap bertemu lagi. Dibawah batang hidung Kaiden, Citra berusaha merencanakan untuk kabur lagi. Namun tanpa diduga, kali ini dia adalah mangsa. Perangkap sang pemburu sudah dipasang sejak pertama kali mereka bertemu.",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000118123/41000118123.jpg?t=1751874058203",
+"chapterCount": 87,
+"playCount": "30.1M",
+"corner": {
+"cornerType": 4,
+"name": "Anggota Saja",
+"color": "#4D65ED"
+}
+},
+{
+"bookId": "41000102753",
+"bookName": "Tersalah Cinta",
+"introduction": "Shawn Moore mengurung Kesia Foster di sebuah rumah sakit jiwa, menyiksanya dan merendahkan martabatnya tanpa henti, membuatnya membayar dosa ayahnya yang menyebabkan kematian ayah Shawn.Dua tahun kemudian, dia menikahinya, tetapi... \"Kamu hanya membayar dosa keluargamu dengan cara lain.\"",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000102753/41000102753.jpg?t=1710317307850",
+"chapterCount": 106,
+"playCount": "42.4M",
+"corner": {
+"cornerType": 7,
+"name": "Eksklusif",
+"color": "#4D65ED"
+}
+},
+{
+"bookId": "42000000446",
+"bookName": "Benih Cinta Petani Miliarder",
+"introduction": "Demi membiayai pengobatan ayah angkatnya, Louise setuju menggantikan saudari angkatnya Christina untuk dinikahkan dengan Troy, seorang petani. Diluar dugaan, Troy ternyata seorang miliarder tersembunyi. Namun saat hubungan mereka yang pada awalnya kaku perlahan menjadi cinta, Christina yang menyadari kesalahannya menolak Troy berusaha merebut Troy dari Louise dengan segala cara!",
+"cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000000446/42000000446.jpg?t=1763368744377",
+"chapterCount": 59,
+"playCount": "1.6M",
+"corner": {
+"cornerType": 7,
+"name": "Eksklusif",
+"color": "#4D65ED"
+}
+}
+],
+"isMore": true,
+"total": 10,
+"raw": {
+"data": {
+"classifyBookList": {
+"records": [
+{
+"bookId": "41000119880",
+"bookName": "Kupasrahkan Diriku Pada Cintamu",
+"coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000119880/41000119880.jpg?t=1754981919641",
+"chapterCount": 54,
+"introduction": "Saat datang menemui kekasihnya, Olivia secara tak sengaja bertemu dengan Ellis, seorang CEO miliarder paruh baya yang sekaligus ayah kekasihnya. Perkenalan Olivia dengan Ellis menuntun Olivia yang polos memasuki dunia percintaan yang berbeda, yang penuh hasrat dan dominasi...  ",
+"tags": [
+"Perbedaan Usia",
+"Cinta Terlarang",
+"CEO",
+"Modern",
+"Romansa",
+"BG"
+],
+"tagV3s": [
+{
+"tagId": 1383,
+"tagName": "Perbedaan Usia",
+"tagEnName": "Age-Gap Love"
+},
+{
+"tagId": 1379,
+"tagName": "Cinta Terlarang",
+"tagEnName": "Forbidden Love"
+},
+{
+"tagId": 1362,
+"tagName": "CEO",
+"tagEnName": "Billionaire"
+},
+{
+"tagId": 1352,
+"tagName": "Modern",
+"tagEnName": "Modern"
+},
+{
+"tagId": 1357,
+"tagName": "Romansa",
+"tagEnName": "Romance"
+},
+{
+"tagId": 1358,
+"tagName": "BG",
+"tagEnName": "BG"
+}
+],
+"bookSource": {
+"sceneId": "ovs_vd_cat_video_rec",
+"expId": "bigdata_rec",
+"strategyId": "gjmq8k6w",
+"strategyName": "\"EXP_2\"",
+"log_id": "cb11d458a9242e4898ff6aaae3d9abc9"
+},
+"isEntry": 0,
+"index": 0,
+"corner": {
+"cornerType": 7,
+"name": "Eksklusif",
+"color": "#4D65ED"
+},
+"dataFrom": "算法_分类筛选",
+"cardType": 1,
+"markNamesConnectKey": ", ",
+"algorithmRecomDot": "{\"log_id\":\"cb11d458a9242e4898ff6aaae3d9abc9\",\"ret_time\":\"1764515725730\",\"scene_id\":\"ovs_vd_cat_video_rec\",\"rec_id\":\"bigdata_rec\"}",
+"playCount": "42.9M",
+"bookShelfTime": 1754984291000,
+"shelfTime": "2025-08-12 15:38:11",
+"inLibrary": false
+},
+{
+"bookId": "42000000277",
+"bookName": "Bayangmu yang Hilang (Sulih Suara)",
+"coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000000277/42000000277.jpg?t=1762846854810",
+"chapterCount": 71,
+"introduction": "Orang tua Kirana mengemudi dalam keadaan mabuk di hari pernikahan, menyebabkan Reza kehilangan seluruh keluarganya. Pernikahan itu berubah menjadi pemakaman, dan kekasih menjadi musuh. Untuk menebus dosa, Kirana tetap di sisi Reza selama lima tahun, menanggung semua penderitaan yang diberikan oleh Reza. Setelah lima tahun, hubungan mereka berakhir dengan penyesalan. Reza sangat terpukul setelah kehilangannya...",
+"tags": [
+"Balas Dendam",
+"Penebusan",
+"Penyesalan",
+"Wanita Mandiri",
+"Modern",
+"Romansa"
+],
+"tagV3s": [
+{
+"tagId": 1394,
+"tagName": "Balas Dendam",
+"tagEnName": "Revenge"
+},
+{
+"tagId": 1459,
+"tagName": "Penebusan",
+"tagEnName": "Redemption"
+},
+{
+"tagId": 1654,
+"tagName": "Penyesalan",
+"tagEnName": "All-Too-Late"
+},
+{
+"tagId": 1452,
+"tagName": "Wanita Mandiri",
+"tagEnName": "Independent Woman"
+},
+{
+"tagId": 1352,
+"tagName": "Modern",
+"tagEnName": "Modern"
+},
+{
+"tagId": 1357,
+"tagName": "Romansa",
+"tagEnName": "Romance"
+}
+],
+"bookSource": {
+"sceneId": "ovs_vd_cat_video_rec",
+"expId": "bigdata_rec",
+"strategyId": "gjmq8k6w",
+"strategyName": "\"EXP_2\"",
+"log_id": "cb11d458a9242e4898ff6aaae3d9abc9"
+},
+"isEntry": 0,
+"index": 0,
+"corner": {
+"cornerType": 6,
+"name": "Terpopuler",
+"color": "#FF2965"
+},
+"dataFrom": "算法_分类筛选",
+"cardType": 1,
+"markNamesConnectKey": ", ",
+"algorithmRecomDot": "{\"log_id\":\"cb11d458a9242e4898ff6aaae3d9abc9\",\"ret_time\":\"1764515725730\",\"scene_id\":\"ovs_vd_cat_video_rec\",\"rec_id\":\"bigdata_rec\"}",
+"playCount": "621K",
+"bookShelfTime": 1762928651000,
+"shelfTime": "2025-11-12 14:24:11",
+"inLibrary": false
+},
+{
+"bookId": "41000106679",
+"bookName": "Pernikahan Tidak Terdugaku (Sulih Suara)",
+"coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000106679/41000106679.jpg?t=1728466420951",
+"chapterCount": 99,
+"introduction": "Karena dipaksa menikah oleh manajer tokonya, Lia menikahi seorang pria jomblo yang sudah pernah menikah dan memiliki anak kembar. Awalnya berpikir kehidupan setelah menikah akan sangat tentra dan damai, tidak disangka pria ini adalah pria terkaya di kota! Lia: Ben! Apa lagi yang kau rahasiakan dariku? Ben memeluk kedua anaknya: Sebenarnya mereka juga anak kandungmu…",
+"tags": [
+"Pembalikan Identitas",
+"Kabur Saat Hamil",
+"Keluarga",
+"CEO",
+"Ibu Tunggal",
+"Cinta Setelah Menikah"
+],
+"tagV3s": [
+{
+"tagId": 1395,
+"tagName": "Pembalikan Identitas",
+"tagEnName": "Hidden Identity"
+},
+{
+"tagId": 1397,
+"tagName": "Kabur Saat Hamil",
+"tagEnName": "Secret Baby"
+},
+{
+"tagId": 1408,
+"tagName": "Keluarga",
+"tagEnName": "Family Bonds"
+},
+{
+"tagId": 1362,
+"tagName": "CEO",
+"tagEnName": "Billionaire"
+},
+{
+"tagId": 1377,
+"tagName": "Ibu Tunggal",
+"tagEnName": "Single Mom"
+},
+{
+"tagId": 1393,
+"tagName": "Cinta Setelah Menikah",
+"tagEnName": "Love After Marriage"
+}
+],
+"bookSource": {
+"sceneId": "ovs_vd_cat_video_rec",
+"expId": "bigdata_rec",
+"strategyId": "gjmq8k6w",
+"strategyName": "\"EXP_2\"",
+"log_id": "cb11d458a9242e4898ff6aaae3d9abc9"
+},
+"isEntry": 0,
+"index": 0,
+"corner": {
+"cornerType": 3,
+"name": "Sulih Suara",
+"color": "#4D65ED"
+},
+"dataFrom": "算法_分类筛选",
+"cardType": 1,
+"markNamesConnectKey": ", ",
+"algorithmRecomDot": "{\"log_id\":\"cb11d458a9242e4898ff6aaae3d9abc9\",\"ret_time\":\"1764515725730\",\"scene_id\":\"ovs_vd_cat_video_rec\",\"rec_id\":\"bigdata_rec\"}",
+"playCount": "32.2M",
+"bookShelfTime": 1728538844000,
+"shelfTime": "2024-10-10 13:40:44",
+"inLibrary": false
+},
+{
+"bookId": "41000115600",
+"bookName": "Jadikan Aku Milikmu Selamanya",
+"coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000115600/41000115600.jpg?t=1746522685308",
+"chapterCount": 55,
+"introduction": " Bella terpaksa harus menari striptis demi membiayai adiknya yang sakit berat. Tanpa diduga Bella bertemu dengan seorang miliarder kaya bernama Marcus. Marcus yang melihat ada sesuatu dalam diri Bella berniat menolongnya dengan memberikan suatu kontrak aneh yang dapat menyelesaikan semua biaya pengobatan adiknya. Akankah kontrak ini membuat Bella menyelesaikan masalahnya ataukah membuatnya jatuh dalam permainan cinta yang mengandung resiko?",
+"tags": [
+"Gadis Naif",
+"Cinta Paksaan",
+"Cinta Terlarang",
+"Modern",
+"Romansa",
+"BG"
+],
+"tagV3s": [
+{
+"tagId": 1374,
+"tagName": "Gadis Naif",
+"tagEnName": "Innocent Damsel"
+},
+{
+"tagId": 1378,
+"tagName": "Cinta Paksaan",
+"tagEnName": "Forced Love"
+},
+{
+"tagId": 1379,
+"tagName": "Cinta Terlarang",
+"tagEnName": "Forbidden Love"
+},
+{
+"tagId": 1352,
+"tagName": "Modern",
+"tagEnName": "Modern"
+},
+{
+"tagId": 1357,
+"tagName": "Romansa",
+"tagEnName": "Romance"
+},
+{
+"tagId": 1358,
+"tagName": "BG",
+"tagEnName": "BG"
+}
+],
+"bookSource": {
+"sceneId": "ovs_vd_cat_video_rec",
+"expId": "bigdata_rec",
+"strategyId": "gjmq8k6w",
+"strategyName": "\"EXP_2\"",
+"log_id": "cb11d458a9242e4898ff6aaae3d9abc9"
+},
+"isEntry": 0,
+"index": 0,
+"corner": {
+"cornerType": 7,
+"name": "Eksklusif",
+"color": "#4D65ED"
+},
+"dataFrom": "算法_分类筛选",
+"cardType": 1,
+"markNamesConnectKey": ", ",
+"algorithmRecomDot": "{\"log_id\":\"cb11d458a9242e4898ff6aaae3d9abc9\",\"ret_time\":\"1764515725730\",\"scene_id\":\"ovs_vd_cat_video_rec\",\"rec_id\":\"bigdata_rec\"}",
+"playCount": "8.8M",
+"bookShelfTime": 1746524688000,
+"shelfTime": "2025-05-06 17:44:48",
+"inLibrary": false
+},
+{
+"bookId": "41000116653",
+"bookName": "Sst, Jangan Bilang Siapa-Siapa",
+"coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000116653/41000116653.jpg?t=1748929066809",
+"chapterCount": 57,
+"introduction": "Pada suatu malam di sebuah bar, Vincent yang kesal karena ayahnya akan menikah lagi dengan seorang janda beranak satu, menyelamatkan Fiona, yang dijual pacarnya ke seorang preman. Keesokan harinya di saat pernikahan ayahnya, Vincent baru tahu kalau Fiona adalah calon adik tiri barunya. Kesal karena menganggap ibu dan anak itu hanya mengincar harta keluarga, Vincent bertekad mengerjai Fiona agar dia dan ibunya diusir dari keluarga Vincent.",
+"tags": [
+"Pembalikan Identitas",
+"Intrik Keluarga",
+"Kekuatan khusus",
+"Gadis Naif",
+"Musuh Jadi Kekasih",
+"Saudara Tiri"
+],
+"tagV3s": [
+{
+"tagId": 1395,
+"tagName": "Pembalikan Identitas",
+"tagEnName": "Hidden Identity"
+},
+{
+"tagId": 1411,
+"tagName": "Intrik Keluarga",
+"tagEnName": "Family Intrigue"
+},
+{
+"tagId": 1371,
+"tagName": "Kekuatan khusus",
+"tagEnName": "The Chosen One"
+},
+{
+"tagId": 1374,
+"tagName": "Gadis Naif",
+"tagEnName": "Innocent Damsel"
+},
+{
+"tagId": 1390,
+"tagName": "Musuh Jadi Kekasih",
+"tagEnName": "Enemy to Lover"
+},
+{
+"tagId": 1456,
+"tagName": "Saudara Tiri",
+"tagEnName": "Step-Siblings"
+}
+],
+"bookSource": {
+"sceneId": "ovs_vd_cat_video_rec",
+"expId": "bigdata_rec",
+"strategyId": "gjmq8k6w",
+"strategyName": "\"EXP_2\"",
+"log_id": "cb11d458a9242e4898ff6aaae3d9abc9"
+},
+"isEntry": 0,
+"index": 0,
+"corner": {
+"cornerType": 7,
+"name": "Eksklusif",
+"color": "#4D65ED"
+},
+"dataFrom": "算法_分类筛选",
+"cardType": 1,
+"markNamesConnectKey": ", ",
+"algorithmRecomDot": "{\"log_id\":\"cb11d458a9242e4898ff6aaae3d9abc9\",\"ret_time\":\"1764515725730\",\"scene_id\":\"ovs_vd_cat_video_rec\",\"rec_id\":\"bigdata_rec\"}",
+"playCount": "20.3M",
+"bookShelfTime": 1748931294000,
+"shelfTime": "2025-06-03 14:14:54",
+"inLibrary": false
+},
+{
+"bookId": "41000116902",
+"bookName": "Asmara di Atas Awan",
+"coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000116902/41000116902.jpg?t=1749523022917",
+"chapterCount": 64,
+"introduction": "Harper berhasil mewujudkan impiannya menjadi pramugari sebuah maskapai keluarga. Dalam hidupnya yang sulit dimana ayahnya penjudi kambuhan dan ibunya yang dirawat di rumah sakit, Harper menerima bantuan dana dari seorang misterius bernama Tn. Wright. Satu hal yang tidak diketahuinya, Tn. Wright yang selama ini membantunya telah memendam cinta padanya dan menjadi CEO maskapai keluarga yang baru dimasukinya.",
+"tags": [
+"Pembalikan Identitas",
+"Kabur Saat Hamil",
+"CEO",
+"Pilot",
+"Cinta Rahasia",
+"Romansa Kantor"
+],
+"tagV3s": [
+{
+"tagId": 1395,
+"tagName": "Pembalikan Identitas",
+"tagEnName": "Hidden Identity"
+},
+{
+"tagId": 1397,
+"tagName": "Kabur Saat Hamil",
+"tagEnName": "Secret Baby"
+},
+{
+"tagId": 1362,
+"tagName": "CEO",
+"tagEnName": "Billionaire"
+},
+{
+"tagId": 1448,
+"tagName": "Pilot",
+"tagEnName": "Pilot"
+},
+{
+"tagId": 1386,
+"tagName": "Cinta Rahasia",
+"tagEnName": "Secret Crush"
+},
+{
+"tagId": 1388,
+"tagName": "Romansa Kantor",
+"tagEnName": "Office Romance"
+}
+],
+"bookSource": {
+"sceneId": "ovs_vd_cat_video_rec",
+"expId": "bigdata_rec",
+"strategyId": "gjmq8k6w",
+"strategyName": "\"EXP_2\"",
+"log_id": "cb11d458a9242e4898ff6aaae3d9abc9"
+},
+"isEntry": 0,
+"index": 0,
+"corner": {
+"cornerType": 7,
+"name": "Eksklusif",
+"color": "#4D65ED"
+},
+"dataFrom": "算法_分类筛选",
+"cardType": 1,
+"markNamesConnectKey": ", ",
+"algorithmRecomDot": "{\"log_id\":\"cb11d458a9242e4898ff6aaae3d9abc9\",\"ret_time\":\"1764515725730\",\"scene_id\":\"ovs_vd_cat_video_rec\",\"rec_id\":\"bigdata_rec\"}",
+"playCount": "12M",
+"bookShelfTime": 1749526108000,
+"shelfTime": "2025-06-10 11:28:28",
+"inLibrary": false
+},
+{
+"bookId": "42000000454",
+"bookName": "Saat Hati Terlanjur Tersakiti",
+"coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000000454/42000000454.jpg?t=1763371711125",
+"chapterCount": 53,
+"introduction": " Setelah orangtuanya meninggal, Joy diasuh keluarga Reynolds yang hangat, termasuk kedua putra mereka, Gavin dan Elliot. Segalanya berubah saat Megan, putri pelayan, datang dan licik memisahkan Joy dari mereka. Joy pun pergi dan menikah dengan Nathan, pewaris miliarder. Setelah tipu muslihat Megan terbongkar, mungkinkah Gavin dan Elliot bisa merebut kembali hati Joy yang terluka?",
+"tags": [
+"Cinta Segitiga",
+"Penyesalan",
+"Gadis Naif",
+"Modern",
+"Romansa",
+"BG"
+],
+"tagV3s": [
+{
+"tagId": 1380,
+"tagName": "Cinta Segitiga",
+"tagEnName": "Love Triangle"
+},
+{
+"tagId": 1654,
+"tagName": "Penyesalan",
+"tagEnName": "All-Too-Late"
+},
+{
+"tagId": 1374,
+"tagName": "Gadis Naif",
+"tagEnName": "Innocent Damsel"
+},
+{
+"tagId": 1352,
+"tagName": "Modern",
+"tagEnName": "Modern"
+},
+{
+"tagId": 1357,
+"tagName": "Romansa",
+"tagEnName": "Romance"
+},
+{
+"tagId": 1358,
+"tagName": "BG",
+"tagEnName": "BG"
+}
+],
+"bookSource": {
+"sceneId": "ovs_vd_cat_video_rec",
+"expId": "bigdata_rec",
+"strategyId": "gjmq8k6w",
+"strategyName": "\"EXP_2\"",
+"log_id": "cb11d458a9242e4898ff6aaae3d9abc9"
+},
+"isEntry": 0,
+"index": 0,
+"corner": {
+"cornerType": 6,
+"name": "Terpopuler",
+"color": "#FF2965"
+},
+"dataFrom": "算法_分类筛选",
+"cardType": 1,
+"markNamesConnectKey": ", ",
+"algorithmRecomDot": "{\"log_id\":\"cb11d458a9242e4898ff6aaae3d9abc9\",\"ret_time\":\"1764515725731\",\"scene_id\":\"ovs_vd_cat_video_rec\",\"rec_id\":\"bigdata_rec\"}",
+"playCount": "449K",
+"bookShelfTime": 1763378747000,
+"shelfTime": "2025-11-17 19:25:47",
+"inLibrary": false
+},
+{
+"bookId": "41000118123",
+"bookName": "Nafsu Terlarang",
+"coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000118123/41000118123.jpg?t=1751874058203",
+"chapterCount": 87,
+"introduction": "Lima tahun lalu, Kaiden Loren melanggar pantangan. Citra Joana membiusnya kemudian melarikan diri. Citra menyembunyikan identitas, tapi mereka tetap bertemu lagi. Dibawah batang hidung Kaiden, Citra berusaha merencanakan untuk kabur lagi. Namun tanpa diduga, kali ini dia adalah mangsa. Perangkap sang pemburu sudah dipasang sejak pertama kali mereka bertemu.",
+"tags": [
+"Pengantin Kabur",
+"Cinta Terlarang",
+"Kesempatan Kedua",
+"Modern",
+"Romansa",
+"BG"
+],
+"tagV3s": [
+{
+"tagId": 1396,
+"tagName": "Pengantin Kabur",
+"tagEnName": "Runaway Bride"
+},
+{
+"tagId": 1379,
+"tagName": "Cinta Terlarang",
+"tagEnName": "Forbidden Love"
+},
+{
+"tagId": 1392,
+"tagName": "Kesempatan Kedua",
+"tagEnName": "Second Chance"
+},
+{
+"tagId": 1352,
+"tagName": "Modern",
+"tagEnName": "Modern"
+},
+{
+"tagId": 1357,
+"tagName": "Romansa",
+"tagEnName": "Romance"
+},
+{
+"tagId": 1358,
+"tagName": "BG",
+"tagEnName": "BG"
+}
+],
+"bookSource": {
+"sceneId": "ovs_vd_cat_video_rec",
+"expId": "bigdata_rec",
+"strategyId": "gjmq8k6w",
+"strategyName": "\"EXP_2\"",
+"log_id": "cb11d458a9242e4898ff6aaae3d9abc9"
+},
+"isEntry": 0,
+"index": 0,
+"corner": {
+"cornerType": 4,
+"name": "Anggota Saja",
+"color": "#4D65ED"
+},
+"dataFrom": "算法_分类筛选",
+"cardType": 1,
+"markNamesConnectKey": ", ",
+"algorithmRecomDot": "{\"log_id\":\"cb11d458a9242e4898ff6aaae3d9abc9\",\"ret_time\":\"1764515725731\",\"scene_id\":\"ovs_vd_cat_video_rec\",\"rec_id\":\"bigdata_rec\"}",
+"playCount": "30.1M",
+"bookShelfTime": 1752483600000,
+"shelfTime": "2025-07-14 17:00:00",
+"inLibrary": false
+},
+{
+"bookId": "41000102753",
+"bookName": "Tersalah Cinta",
+"coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000102753/41000102753.jpg?t=1710317307850",
+"chapterCount": 106,
+"introduction": "Shawn Moore mengurung Kesia Foster di sebuah rumah sakit jiwa, menyiksanya dan merendahkan martabatnya tanpa henti, membuatnya membayar dosa ayahnya yang menyebabkan kematian ayah Shawn.Dua tahun kemudian, dia menikahinya, tetapi... \"Kamu hanya membayar dosa keluargamu dengan cara lain.\"",
+"tags": [
+"Balas Dendam",
+"Intrik Keluarga",
+"CEO",
+"Cinta Paksaan",
+"Cinta Setelah Menikah",
+"Modern"
+],
+"tagV3s": [
+{
+"tagId": 1394,
+"tagName": "Balas Dendam",
+"tagEnName": "Revenge"
+},
+{
+"tagId": 1411,
+"tagName": "Intrik Keluarga",
+"tagEnName": "Family Intrigue"
+},
+{
+"tagId": 1362,
+"tagName": "CEO",
+"tagEnName": "Billionaire"
+},
+{
+"tagId": 1378,
+"tagName": "Cinta Paksaan",
+"tagEnName": "Forced Love"
+},
+{
+"tagId": 1393,
+"tagName": "Cinta Setelah Menikah",
+"tagEnName": "Love After Marriage"
+},
+{
+"tagId": 1352,
+"tagName": "Modern",
+"tagEnName": "Modern"
+}
+],
+"bookSource": {
+"sceneId": "ovs_vd_cat_video_rec",
+"expId": "bigdata_rec",
+"strategyId": "gjmq8k6w",
+"strategyName": "\"EXP_2\"",
+"log_id": "cb11d458a9242e4898ff6aaae3d9abc9"
+},
+"isEntry": 0,
+"index": 0,
+"corner": {
+"cornerType": 7,
+"name": "Eksklusif",
+"color": "#4D65ED"
+},
+"dataFrom": "算法_分类筛选",
+"cardType": 1,
+"markNamesConnectKey": ", ",
+"algorithmRecomDot": "{\"log_id\":\"cb11d458a9242e4898ff6aaae3d9abc9\",\"ret_time\":\"1764515725731\",\"scene_id\":\"ovs_vd_cat_video_rec\",\"rec_id\":\"bigdata_rec\"}",
+"playCount": "42.4M",
+"bookShelfTime": 1710403585000,
+"shelfTime": "2024-03-14 16:06:25",
+"inLibrary": false
+},
+{
+"bookId": "42000000446",
+"bookName": "Benih Cinta Petani Miliarder",
+"coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000000446/42000000446.jpg?t=1763368744377",
+"chapterCount": 59,
+"introduction": "Demi membiayai pengobatan ayah angkatnya, Louise setuju menggantikan saudari angkatnya Christina untuk dinikahkan dengan Troy, seorang petani. Diluar dugaan, Troy ternyata seorang miliarder tersembunyi. Namun saat hubungan mereka yang pada awalnya kaku perlahan menjadi cinta, Christina yang menyadari kesalahannya menolak Troy berusaha merebut Troy dari Louise dengan segala cara!",
+"tags": [
+"Pembalikan Identitas",
+"Cinta Setelah Menikah",
+"Intrik Keluarga",
+"Gadis Naif",
+"Modern",
+"Romansa"
+],
+"tagV3s": [
+{
+"tagId": 1395,
+"tagName": "Pembalikan Identitas",
+"tagEnName": "Hidden Identity"
+},
+{
+"tagId": 1393,
+"tagName": "Cinta Setelah Menikah",
+"tagEnName": "Love After Marriage"
+},
+{
+"tagId": 1411,
+"tagName": "Intrik Keluarga",
+"tagEnName": "Family Intrigue"
+},
+{
+"tagId": 1374,
+"tagName": "Gadis Naif",
+"tagEnName": "Innocent Damsel"
+},
+{
+"tagId": 1352,
+"tagName": "Modern",
+"tagEnName": "Modern"
+},
+{
+"tagId": 1357,
+"tagName": "Romansa",
+"tagEnName": "Romance"
+}
+],
+"bookSource": {
+"sceneId": "ovs_vd_cat_video_rec",
+"expId": "bigdata_rec",
+"strategyId": "gjmq8k6w",
+"strategyName": "\"EXP_2\"",
+"log_id": "cb11d458a9242e4898ff6aaae3d9abc9"
+},
+"isEntry": 0,
+"index": 0,
+"corner": {
+"cornerType": 7,
+"name": "Eksklusif",
+"color": "#4D65ED"
+},
+"dataFrom": "算法_分类筛选",
+"cardType": 1,
+"markNamesConnectKey": ", ",
+"algorithmRecomDot": "{\"log_id\":\"cb11d458a9242e4898ff6aaae3d9abc9\",\"ret_time\":\"1764515725731\",\"scene_id\":\"ovs_vd_cat_video_rec\",\"rec_id\":\"bigdata_rec\"}",
+"playCount": "1.6M",
+"bookShelfTime": 1763370872000,
+"shelfTime": "2025-11-17 17:14:32",
+"inLibrary": false
+}
+],
+"isMore": 1
+},
+"cornerSwitch": true
+},
+"status": 0,
+"message": "success",
+"timestamp": 1764515725731,
+"ip": "2a06:98c0:3600::103",
+"region": "哥伦比亚",
+"path": "/he001/classify",
+"success": true
+}
+},
+"meta": {
+"source": "1"
+}
+}
