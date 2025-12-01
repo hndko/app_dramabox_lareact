@@ -35,4 +35,9 @@ return [
         ],
     ],
 
+    'dramabox' => [
+        'base_url' => env('DRAMABOX_API_BASE_URL', 'https://sapi.dramabox.be/api'),
+        'cache_ttl' => env('DRAMABOX_API_CACHE_TTL', 3600),
+    ],
+
 ];
