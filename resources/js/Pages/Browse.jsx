@@ -88,9 +88,9 @@ export default function Browse({ content, currentPage = 1, filters = {} }) {
                             <SelectTrigger className="w-full">
                                 <SelectValue placeholder="Select genre" />
                             </SelectTrigger>
-                            <SelectContent>
+                            <SelectContent className="bg-neutral-900 border-neutral-800 text-white">
                                 {genres.map((genre) => (
-                                    <SelectItem key={genre.id} value={genre.id}>
+                                    <SelectItem key={genre.id} value={genre.id} className="focus:bg-neutral-800 focus:text-white cursor-pointer">
                                         {genre.name}
                                     </SelectItem>
                                 ))}
@@ -105,9 +105,9 @@ export default function Browse({ content, currentPage = 1, filters = {} }) {
                             <SelectTrigger className="w-full">
                                 <SelectValue placeholder="Select sort" />
                             </SelectTrigger>
-                            <SelectContent>
+                            <SelectContent className="bg-neutral-900 border-neutral-800 text-white">
                                 {sortOptions.map((option) => (
-                                    <SelectItem key={option.id} value={option.id}>
+                                    <SelectItem key={option.id} value={option.id} className="focus:bg-neutral-800 focus:text-white cursor-pointer">
                                         {option.name}
                                     </SelectItem>
                                 ))}
@@ -122,9 +122,9 @@ export default function Browse({ content, currentPage = 1, filters = {} }) {
                             <SelectTrigger className="w-full">
                                 <SelectValue placeholder="Select language" />
                             </SelectTrigger>
-                            <SelectContent>
+                            <SelectContent className="bg-neutral-900 border-neutral-800 text-white">
                                 {languages.map((lang) => (
-                                    <SelectItem key={lang.id} value={lang.id}>
+                                    <SelectItem key={lang.id} value={lang.id} className="focus:bg-neutral-800 focus:text-white cursor-pointer">
                                         {lang.name}
                                     </SelectItem>
                                 ))}
