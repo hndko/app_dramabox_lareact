@@ -18,12 +18,10 @@ class HomeController extends Controller
      */
     public function index(Request $request): Response
     {
-        $page = $request->query('page', 1);
-        $data = $this->dramaBoxService->getForYou($page);
+        $data = $this->dramaBoxService->getForYou();
 
         return Inertia::render('Home', [
             'content' => $data,
-            'currentPage' => $page,
         ]);
     }
 }

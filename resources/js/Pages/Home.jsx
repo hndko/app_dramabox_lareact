@@ -31,46 +31,9 @@ export default function Home({ content, currentPage = 1 }) {
                     <h2 className="text-2xl md:text-3xl font-bold font-display text-white">
                         For You
                     </h2>
-
-                    {hasMore && (
-                        <Link
-                            href={`/?page=${currentPage + 1}`}
-                            className="flex items-center space-x-1 text-white hover:text-gray-300 transition-colors"
-                        >
-                            <span>See More</span>
-                            <ChevronRight className="h-4 w-4" />
-                        </Link>
-                    )}
                 </div>
 
                 <VideoGrid dramas={dramas} loading={!content} />
-
-                {/* Pagination */}
-                {(currentPage > 1 || hasMore) && (
-                    <div className="flex justify-center items-center space-x-4 pt-8">
-                        {currentPage > 1 && (
-                            <Link
-                                href={`/?page=${currentPage - 1}`}
-                                className="px-6 py-2 rounded-lg bg-white/10 text-white hover:bg-white hover:text-black transition-smooth"
-                            >
-                                Previous
-                            </Link>
-                        )}
-
-                        <span className="text-gray-400">
-                            Page {currentPage}
-                        </span>
-
-                        {hasMore && (
-                            <Link
-                                href={`/?page=${currentPage + 1}`}
-                                className="px-6 py-2 rounded-lg bg-white text-black hover:bg-gray-200 transition-smooth"
-                            >
-                                Next
-                            </Link>
-                        )}
-                    </div>
-                )}
             </section>
         </AppLayout>
     );
