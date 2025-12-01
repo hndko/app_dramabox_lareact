@@ -1,16 +1,21 @@
-import { Head, Link } from '@inertiajs/react';
-import AppLayout from '@/Layouts/AppLayout';
-import { Play, ChevronRight, Lock } from 'lucide-react';
-import { Card } from '@/Components/ui/card';
-import { Badge } from '@/Components/ui/badge';
-import { ScrollArea } from '@/Components/ui/scroll-area';
+import { Head, Link } from "@inertiajs/react";
+import AppLayout from "@/Layouts/AppLayout";
+import { Play, ChevronRight, Lock } from "lucide-react";
+import { Card } from "@/Components/ui/card";
+import { Badge } from "@/Components/ui/badge";
+import { ScrollArea } from "@/Components/ui/scroll-area";
 
-export default function Player({ dramaId, currentEpisode = 0, chapters, watchData }) {
+export default function Player({
+    dramaId,
+    currentEpisode = 0,
+    chapters,
+    watchData,
+}) {
     // API returns: chapters.chapterList array, watchData.videoUrl
     const episodeList = chapters?.chapterList || [];
-    const videoUrl = watchData?.videoUrl || '';
+    const videoUrl = watchData?.videoUrl || "";
     const qualities = watchData?.qualities || [];
-    const cover = watchData?.cover || '';
+    const cover = watchData?.cover || "";
 
     return (
         <AppLayout>
@@ -38,7 +43,9 @@ export default function Player({ dramaId, currentEpisode = 0, chapters, watchDat
                                     <div className="text-center space-y-4">
                                         <Play className="h-16 w-16 mx-auto text-muted-foreground" />
                                         <p className="text-muted-foreground">
-                                            {watchData ? 'Video not available' : 'Loading video...'}
+                                            {watchData
+                                                ? "Video not available"
+                                                : "Loading video..."}
                                         </p>
                                     </div>
                                 </div>
@@ -50,17 +57,29 @@ export default function Player({ dramaId, currentEpisode = 0, chapters, watchDat
                             <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
                                 <div className="flex-1 space-y-2">
                                     <h1 className="text-2xl md:text-3xl font-bold font-display text-white">
-                                        Episode {parseInt(currentEpisode)}
+                                        {chapters?.bookName || "Drama Title"}
                                     </h1>
+                                    <div className="flex items-center gap-3">
+                                        <span className="text-lg text-primary font-semibold">
+                                            Episode {parseInt(currentEpisode)}
+                                        </span>
+                                        {chapters?.introduction && (
+                                            <span className="text-sm text-muted-foreground line-clamp-1">
+                                                {chapters.introduction}
+                                            </span>
+                                        )}
+                                    </div>
 
-                                    <p className="text-gray-400">
-                                        {episodeList.length > 0
-                                            ? `${episodeList.length} Episodes Available`
-                                            : 'Loading episodes...'}
+                                    <p className="text-gray-400 text-sm leading-relaxed pt-2">
+                                        {chapters?.introduction ||
+                                            "No description available."}
                                     </p>
 
                                     <div className="flex flex-wrap gap-2 pt-2">
-                                        <Badge variant="secondary" className="bg-white/10 text-gray-300 border-0">
+                                        <Badge
+                                            variant="secondary"
+                                            className="bg-white/10 text-gray-300 border-0"
+                                        >
                                             Drama ID: {dramaId}
                                         </Badge>
                                     </div>
@@ -72,7 +91,9 @@ export default function Player({ dramaId, currentEpisode = 0, chapters, watchDat
                         <div className="flex justify-between items-center">
                             {currentEpisode > 0 ? (
                                 <Link
-                                    href={`/watch/${dramaId}?episode=${currentEpisode - 1}`}
+                                    href={`/watch/${dramaId}?episode=${
+                                        currentEpisode - 1
+                                    }`}
                                     className="flex items-center space-x-2 px-6 py-3 rounded-lg bg-white/10 hover:bg-white/20 text-white transition-smooth"
                                 >
                                     <span>Previous Episode</span>
@@ -83,7 +104,9 @@ export default function Player({ dramaId, currentEpisode = 0, chapters, watchDat
 
                             {currentEpisode < episodeList.length - 1 && (
                                 <Link
-                                    href={`/watch/${dramaId}?episode=${currentEpisode + 1}`}
+                                    href={`/watch/${dramaId}?episode=${
+                                        currentEpisode + 1
+                                    }`}
                                     className="flex items-center space-x-2 px-6 py-3 rounded-lg bg-white text-black hover:bg-gray-200 transition-smooth"
                                 >
                                     <span>Next Episode</span>
@@ -94,60 +117,90 @@ export default function Player({ dramaId, currentEpisode = 0, chapters, watchDat
                     </div>
 
                     {/* Right Sidebar - Episode List */}
-                    <div className="lg:sticky lg:top-6 h-fit">
-                        <Card className="border-0 bg-card">
-                            <div className="p-4 border-b border-white/10">
-                                <h2 className="text-lg font-semibold text-white flex items-center gap-2">
-                                    <Play className="h-5 w-5" />
+                    <div className="lg:sticky lg:top-24 h-fit">
+                        <div className="bg-card/50 backdrop-blur-xl rounded-2xl border border-white/5 overflow-hidden">
+                            <div className="p-4 border-b border-white/5 flex items-center justify-between">
+                                <h2 className="text-lg font-bold font-display text-white flex items-center gap-2">
+                                    <Play className="h-4 w-4 text-primary" />
                                     Episodes
                                 </h2>
+                                <span className="text-xs text-muted-foreground font-medium px-2 py-1 rounded-md bg-white/5">
+                                    {episodeList.length} Total
+                                </span>
                             </div>
                             <ScrollArea className="h-[calc(100vh-200px)]">
-                                <div className="p-3">
-                                    <div className="grid grid-cols-5 gap-2">
+                                <div className="p-4">
+                                    <div className="grid grid-cols-5 gap-2.5">
                                         {episodeList.map((chapter) => {
-                                            const episodeNumber = chapter.chapterIndex;
-                                            const isLocked = chapter.isCharge === 1 && chapter.isPay === 0;
-                                            const isCurrent = currentEpisode == episodeNumber;
+                                            const episodeNumber =
+                                                chapter.chapterIndex;
+                                            const isLocked =
+                                                chapter.isCharge === 1 &&
+                                                chapter.isPay === 0;
+                                            const isCurrent =
+                                                currentEpisode == episodeNumber;
 
                                             return (
                                                 <Link
-                                                    key={chapter.chapterId || episodeNumber}
+                                                    key={
+                                                        chapter.chapterId ||
+                                                        episodeNumber
+                                                    }
                                                     href={`/watch/${dramaId}?episode=${episodeNumber}`}
-                                                    className={`group relative aspect-square rounded-lg overflow-hidden transition-smooth hover:scale-105 ${
+                                                    className={`group relative aspect-square rounded-xl overflow-hidden transition-all duration-300 hover:scale-105 ${
                                                         isCurrent
-                                                            ? 'ring-2 ring-white'
-                                                            : ''
+                                                            ? "ring-2 ring-primary shadow-lg shadow-primary/25"
+                                                            : "hover:ring-1 hover:ring-white/20"
                                                     }`}
                                                 >
-                                                    <div className={`w-full h-full flex flex-col items-center justify-center ${
-                                                        isCurrent
-                                                            ? 'bg-white text-black'
-                                                            : 'bg-white/5 text-white hover:bg-white/10'
-                                                    }`}>
+                                                    <div
+                                                        className={`w-full h-full flex flex-col items-center justify-center ${
+                                                            isCurrent
+                                                                ? "bg-primary text-white"
+                                                                : "bg-secondary/50 text-muted-foreground hover:bg-secondary hover:text-white"
+                                                        }`}
+                                                    >
                                                         {isLocked ? (
                                                             <>
-                                                                <Lock className={`h-3 w-3 mb-0.5 ${isCurrent ? 'text-black' : 'text-gray-400'}`} />
-                                                                <span className={`text-[10px] font-semibold ${isCurrent ? 'text-black' : 'text-gray-400'}`}>
-                                                                    {episodeNumber}
+                                                                <Lock
+                                                                    className={`h-3.5 w-3.5 mb-1 ${
+                                                                        isCurrent
+                                                                            ? "text-white/80"
+                                                                            : "text-muted-foreground"
+                                                                    }`}
+                                                                />
+                                                                <span
+                                                                    className={`text-[10px] font-bold ${
+                                                                        isCurrent
+                                                                            ? "text-white"
+                                                                            : "text-muted-foreground"
+                                                                    }`}
+                                                                >
+                                                                    {
+                                                                        episodeNumber
+                                                                    }
                                                                 </span>
                                                             </>
                                                         ) : (
-                                                            <span className={`text-base font-bold ${isCurrent ? 'text-black' : 'text-white'}`}>
+                                                            <span
+                                                                className={`text-base font-bold ${
+                                                                    isCurrent
+                                                                        ? "text-white"
+                                                                        : ""
+                                                                }`}
+                                                            >
                                                                 {episodeNumber}
                                                             </span>
                                                         )}
                                                     </div>
 
                                                     {isCurrent && (
-                                                        <div className="absolute top-1 right-1 bg-black rounded-full p-1">
-                                                            <Play className="h-2 w-2 fill-current text-white" />
-                                                        </div>
+                                                        <div className="absolute inset-0 bg-gradient-to-tr from-white/20 to-transparent pointer-events-none" />
                                                     )}
 
-                                                    {isLocked && (
-                                                        <div className="absolute bottom-0 left-0 right-0 bg-yellow-500 text-black text-[10px] text-center py-0.5 font-semibold">
-                                                            Premium
+                                                    {isLocked && !isCurrent && (
+                                                        <div className="absolute top-1 right-1">
+                                                            <div className="w-1.5 h-1.5 rounded-full bg-primary/50" />
                                                         </div>
                                                     )}
                                                 </Link>
@@ -156,7 +209,7 @@ export default function Player({ dramaId, currentEpisode = 0, chapters, watchDat
                                     </div>
                                 </div>
                             </ScrollArea>
-                        </Card>
+                        </div>
                     </div>
                 </div>
             </div>

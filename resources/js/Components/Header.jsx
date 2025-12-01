@@ -14,12 +14,12 @@ export default function Header() {
     ];
 
     return (
-        <header className="sticky top-0 z-50 glass-card border-b border-border">
+        <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-md border-b border-white/5">
             <div className="container mx-auto px-4">
                 <div className="flex items-center justify-between h-16 md:h-20">
                     {/* Logo */}
                     <Link href="/" className="flex items-center space-x-2 group">
-                        <div className="text-2xl md:text-3xl font-bold font-display text-white">
+                        <div className="text-2xl md:text-3xl font-bold font-display text-transparent bg-clip-text bg-gradient-to-r from-white to-primary">
                             DramaBox
                         </div>
                     </Link>
@@ -32,7 +32,7 @@ export default function Header() {
                                 <Link
                                     key={item.name}
                                     href={item.href}
-                                    className="flex items-center space-x-2 px-4 py-2 rounded-lg text-sm font-medium text-gray-300 hover:text-white hover:bg-white/10 transition-smooth"
+                                    className="flex items-center space-x-2 px-4 py-2 rounded-lg text-sm font-medium text-muted-foreground hover:text-primary hover:bg-primary/5 transition-smooth"
                                 >
                                     <Icon className="h-4 w-4" />
                                     <span>{item.name}</span>
@@ -67,7 +67,7 @@ export default function Header() {
 
             {/* Mobile Menu */}
             {mobileMenuOpen && (
-                <div className="md:hidden border-t border-border glass-card animate-slideIn">
+                <div className="md:hidden border-t border-white/5 bg-card/95 backdrop-blur-xl animate-slideIn">
                     <nav className="container mx-auto px-4 py-4 space-y-2">
                         {navigation.map((item) => {
                             const Icon = item.icon;
@@ -75,7 +75,7 @@ export default function Header() {
                                 <Link
                                     key={item.name}
                                     href={item.href}
-                                    className="flex items-center space-x-3 px-4 py-3 rounded-lg text-sm font-medium text-gray-300 hover:text-white hover:bg-white/10 transition-smooth"
+                                    className="flex items-center space-x-3 px-4 py-3 rounded-lg text-sm font-medium text-muted-foreground hover:text-primary hover:bg-primary/5 transition-smooth"
                                     onClick={() => setMobileMenuOpen(false)}
                                 >
                                     <Icon className="h-5 w-5" />

@@ -9,8 +9,8 @@ export default function Browse({ content, currentPage = 1, filters = {} }) {
     const dramas = Array.isArray(content?.data) ? content.data : [];
     const hasMore = content?.hasMore || false;
 
-    const [selectedGenre, setSelectedGenre] = useState(filters.genre || 'all');
-    const [selectedSort, setSelectedSort] = useState(filters.sort || '1');
+    const [selectedGenre, setSelectedGenre] = useState(filters.genre ? String(filters.genre) : 'all');
+    const [selectedSort, setSelectedSort] = useState(filters.sort ? String(filters.sort) : '1');
     const [selectedLang, setSelectedLang] = useState(filters.lang || 'all');
 
     const applyFilters = () => {
@@ -136,7 +136,7 @@ export default function Browse({ content, currentPage = 1, filters = {} }) {
                 <div className="flex justify-end">
                     <button
                         onClick={applyFilters}
-                        className="px-6 py-2 rounded-lg bg-primary text-primary-foreground hover:bg-accent hover:text-accent-foreground transition-smooth"
+                        className="px-8 py-2.5 rounded-xl bg-primary text-white font-semibold hover:bg-primary/90 transition-all hover:scale-105 shadow-lg shadow-primary/25"
                     >
                         Apply Filters
                     </button>
@@ -148,26 +148,28 @@ export default function Browse({ content, currentPage = 1, filters = {} }) {
 
             {/* Pagination */}
             {(currentPage > 1 || hasMore) && (
-                <div className="flex justify-center items-center space-x-4 pt-12">
+                <div className="flex justify-center items-center space-x-6 pt-16 pb-8">
                     {currentPage > 1 && (
                         <Link
                             href={`/browse?page=${currentPage - 1}&genre=${selectedGenre}&sort=${selectedSort}&lang=${selectedLang}`}
-                            className="px-6 py-2 rounded-lg bg-secondary hover:bg-primary hover:text-primary-foreground transition-smooth"
+                            className="flex items-center space-x-2 px-6 py-3 rounded-xl bg-card border border-white/10 hover:bg-primary hover:text-white hover:border-primary transition-all group"
                         >
-                            Previous
+                            <svg className="w-5 h-5 transform group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7"/></svg>
+                            <span>Previous</span>
                         </Link>
                     )}
 
-                    <span className="text-muted-foreground">
+                    <span className="text-muted-foreground font-medium">
                         Page {currentPage}
                     </span>
 
                     {hasMore && (
                         <Link
                             href={`/browse?page=${currentPage + 1}&genre=${selectedGenre}&sort=${selectedSort}&lang=${selectedLang}`}
-                            className="px-6 py-2 rounded-lg bg-primary hover:text-primary-foreground transition-smooth"
+                            className="flex items-center space-x-2 px-6 py-3 rounded-xl bg-card border border-white/10 hover:bg-primary hover:text-white hover:border-primary transition-all group"
                         >
-                            Next
+                            <span>Next</span>
+                            <svg className="w-5 h-5 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"/></svg>
                         </Link>
                     )}
                 </div>

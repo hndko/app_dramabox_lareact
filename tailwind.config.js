@@ -14,12 +14,8 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                sans: ["Roboto", "Montserrat", ...defaultTheme.fontFamily.sans],
-                display: [
-                    "Montserrat",
-                    "Roboto",
-                    ...defaultTheme.fontFamily.sans,
-                ],
+                sans: ["Inter", ...defaultTheme.fontFamily.sans],
+                display: ["Outfit", ...defaultTheme.fontFamily.sans],
             },
             borderRadius: {
                 lg: "var(--radius)",
