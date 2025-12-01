@@ -5,11 +5,44 @@ namespace App\Services;
 class DramaBoxService extends ApiService
 {
     /**
+     * Transform drama list from API response to frontend format
+     * Maps bookId to id for React keys and ensures consistent structure
+     */
+    private function transformDramaList(array $dramas): array
+    {
+        return array_map(function ($drama) {
+            return array_merge($drama, [
+                'id' => $drama['bookId'] ?? null, // Add id field for React keys
+            ]);
+        }, $dramas);
+    }
+
+    /**
+     * Transform paginated API response to standardized format
+     */
+    private function transformPaginatedResponse(?array $apiResponse): ?array
+    {
+        if (!$apiResponse || !isset($apiResponse['success']) || !$apiResponse['success']) {
+            return null;
+        }
+
+        $data = $apiResponse['data'] ?? [];
+        $list = $data['list'] ?? [];
+
+        return [
+            'data' => $this->transformDramaList($list),
+            'hasMore' => $data['isMore'] ?? false,
+            'total' => $data['total'] ?? count($list),
+        ];
+    }
+
+    /**
      * Get For You / Theater content
      */
     public function getForYou(int $page = 1): ?array
     {
-        return $this->get("/foryou/{$page}");
+        $response = $this->get("/foryou/{$page}");
+        return $this->transformPaginatedResponse($response);
     }
 
     /**
@@ -17,7 +50,8 @@ class DramaBoxService extends ApiService
      */
     public function getNewReleases(int $page = 1): ?array
     {
-        return $this->get("/new/{$page}");
+        $response = $this->get("/new/{$page}");
+        return $this->transformPaginatedResponse($response);
     }
 
     /**
@@ -25,7 +59,8 @@ class DramaBoxService extends ApiService
      */
     public function getTrending(int $page = 1): ?array
     {
-        return $this->get("/rank/{$page}");
+        $response = $this->get("/rank/{$page}");
+        return $this->transformPaginatedResponse($response);
     }
 
     /**
@@ -56,7 +91,8 @@ class DramaBoxService extends ApiService
             $params['lang'] = $lang;
         }
 
-        return $this->get('/classify', $params);
+        $response = $this->get('/classify', $params);
+        return $this->transformPaginatedResponse($response);
     }
 
     /**
@@ -64,7 +100,21 @@ class DramaBoxService extends ApiService
      */
     public function search(string $keyword, int $page = 1): ?array
     {
-        return $this->get("/search/{$keyword}/{$page}");
+        $response = $this->get("/search/{$keyword}/{$page}");
+
+        if (!$response || !isset($response['success']) || !$response['success']) {
+            return null;
+        }
+
+        // Search response has different structure: data.searchList instead of data.list
+        $data = $response['data'] ?? [];
+        $list = $data['searchList'] ?? $data['list'] ?? [];
+
+        return [
+            'data' => $this->transformDramaList($list),
+            'hasMore' => $data['isMore'] ?? false,
+            'total' => $data['totalSize'] ?? count($list),
+        ];
     }
 
     /**
@@ -72,7 +122,18 @@ class DramaBoxService extends ApiService
      */
     public function getSuggestions(string $query): ?array
     {
-        return $this->get("/suggest/{$query}", [], false); // Don't cache suggestions
+        $response = $this->get("/suggest/{$query}", [], false); // Don't cache suggestions
+
+        if (!$response || !isset($response['success']) || !$response['success']) {
+            return null;
+        }
+
+        $data = $response['data'] ?? [];
+        $list = $data['suggestList'] ?? [];
+
+        return [
+            'suggestions' => $this->transformDramaList($list),
+        ];
     }
 
     /**
@@ -80,7 +141,13 @@ class DramaBoxService extends ApiService
      */
     public function getChapters(string $dramaId): ?array
     {
-        return $this->get("/chapters/{$dramaId}");
+        $response = $this->get("/chapters/{$dramaId}");
+
+        if (!$response || !isset($response['success']) || !$response['success']) {
+            return null;
+        }
+
+        return $response['data'] ?? null;
     }
 
     /**
@@ -93,7 +160,13 @@ class DramaBoxService extends ApiService
     public function getWatch(string $dramaId, int $episode = 0, string $source = 'web'): ?array
     {
         $params = ['source' => $source];
-        return $this->get("/watch/{$dramaId}/{$episode}", $params);
+        $response = $this->get("/watch/{$dramaId}/{$episode}", $params);
+
+        if (!$response || !isset($response['success']) || !$response['success']) {
+            return null;
+        }
+
+        return $response['data'] ?? null;
     }
 
     /**
@@ -110,7 +183,7 @@ class DramaBoxService extends ApiService
 
         return [
             'chapters' => $chapters,
-            'total_episodes' => count($chapters['data'] ?? [])
+            'total_episodes' => count($chapters['chapterList'] ?? [])
         ];
     }
 }

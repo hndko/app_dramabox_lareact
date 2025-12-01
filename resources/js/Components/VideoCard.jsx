@@ -1,25 +1,31 @@
 import { Link } from '@inertiajs/react';
-import { Play, Star } from 'lucide-react';
+import { Play, Star, Eye } from 'lucide-react';
 import { Card } from '@/Components/ui/card';
 import { Badge } from '@/Components/ui/badge';
 
 export default function VideoCard({ drama }) {
-    // Safely extract drama data with fallbacks
+    // API fields: bookId, bookName, introduction, cover, chapterCount, playCount, tags, corner, rank
     const {
-        id,
-        title = 'Untitled',
-        description = '',
-        thumbnail = '',
-        poster = '',
-        rating = 0,
-        genres = [],
-        episodes = 0,
+        bookId,
+        id, // From transformed data (bookId mapped to id)
+        bookName,
+        introduction,
+        cover,
+        chapterCount,
+        playCount,
+        tags = [],
+        corner,
+        rank,
     } = drama || {};
 
-    const imageUrl = thumbnail || poster || '/images/placeholder.jpg';
+    // Use bookId or id for the watch URL
+    const dramaId = bookId || id;
+    const title = bookName || 'Untitled';
+    const description = introduction || '';
+    const imageUrl = cover || '/images/placeholder.jpg';
 
     return (
-        <Link href={`/watch/${id}`}>
+        <Link href={`/watch/${dramaId}`}>
             <Card className="group relative overflow-hidden border-0 bg-card hover-lift shine cursor-pointer">
                 {/* Thumbnail */}
                 <div className="relative aspect-[2/3] overflow-hidden bg-muted">
@@ -37,47 +43,65 @@ export default function VideoCard({ drama }) {
 
                     {/* Play Button */}
                     <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                        <div className="bg-primary rounded-full p-4 transform scale-75 group-hover:scale-100 transition-transform duration-300">
-                            <Play className="h-6 w-6 text-primary-foreground fill-current" />
+                        <div className="bg-white rounded-full p-4 transform scale-75 group-hover:scale-100 transition-transform duration-300">
+                            <Play className="h-6 w-6 text-black fill-current" />
                         </div>
                     </div>
 
-                    {/* Rating Badge */}
-                    {rating > 0 && (
+                    {/* Corner Badge (Terbaru, Eksklusif, etc.) */}
+                    {corner && (
+                        <div
+                            className="absolute top-2 left-2 px-2 py-1 rounded text-xs font-semibold text-white"
+                            style={{ backgroundColor: corner.color || '#4D65ED' }}
+                        >
+                            {corner.name}
+                        </div>
+                    )}
+
+                    {/* Rank Badge */}
+                    {rank && (
                         <div className="absolute top-2 right-2 glass px-2 py-1 rounded-lg flex items-center space-x-1">
                             <Star className="h-3 w-3 text-yellow-400 fill-current" />
-                            <span className="text-xs font-semibold">{rating.toFixed(1)}</span>
+                            <span className="text-xs font-semibold text-white">{rank.hotCode}</span>
+                        </div>
+                    )}
+
+                    {/* Play Count */}
+                    {playCount && (
+                        <div className="absolute bottom-2 right-2 glass px-2 py-1 rounded flex items-center space-x-1">
+                            <Eye className="h-3 w-3 text-gray-300" />
+                            <span className="text-xs font-semibold text-gray-200">{playCount}</span>
                         </div>
                     )}
                 </div>
 
                 {/* Content */}
                 <div className="p-4 space-y-2">
-                    <h3 className="font-semibold text-sm md:text-base line-clamp-2 group-hover:text-primary transition-colors">
+                    <h3 className="font-semibold text-sm md:text-base line-clamp-2 group-hover:text-white transition-colors text-white">
                         {title}
                     </h3>
 
                     {description && (
-                        <p className="text-xs text-muted-foreground line-clamp-2">
+                        <p className="text-xs text-gray-400 line-clamp-2">
                             {description}
                         </p>
                     )}
 
                     {/* Info Row */}
                     <div className="flex items-center justify-between pt-2">
-                        {genres.length > 0 && (
+                        {tags.length > 0 && (
                             <div className="flex flex-wrap gap-1">
-                                {genres.slice(0, 2).map((genre, index) => (
-                                    <Badge key={index} variant="secondary" className="text-xs px-2 py-0">
-                                        {genre}
+                                {tags.slice(0, 2).map((tag, index) => (
+                                    <Badge key={index} variant="secondary" className="text-xs px-2 py-0 bg-white/10 text-gray-300 border-0">
+                                        {tag}
                                     </Badge>
                                 ))}
                             </div>
                         )}
 
-                        {episodes > 0 && (
-                            <span className="text-xs text-muted-foreground">
-                                {episodes} EP
+                        {chapterCount > 0 && (
+                            <span className="text-xs text-gray-400">
+                                {chapterCount} EP
                             </span>
                         )}
                     </div>
